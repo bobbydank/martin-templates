@@ -23,10 +23,10 @@
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/power-transmission.html">Power Transmission</a>
+          <a href="/power-transmission.php">Power Transmission</a>
         </li>
         <li>
-          <a href="/power-transmission-gears.html">Gears</a>
+          <a href="/power-transmission-gears.php">Gears</a>
         </li>
       </ul>
     </section>

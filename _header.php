@@ -51,10 +51,10 @@
               </div>
               <ul id="the-menu" class="md:inline-list line-seperator uppercase">
                 <li>
-                  <a href="/company.html">Company</a>
+                  <a href="/company.php">Company</a>
                   <ul>
                     <li>
-                      <a href="/company.html">Company</a>
+                      <a href="/company.php">Company</a>
                     </li>
                     <li>
                       <ul>
@@ -97,7 +97,7 @@
               </ul>
               <ul class="md:inline-list line-seperator uppercase border-top inline-block">
                 <li>
-                  <a class="active" href="/power-transmission.html">Power Transmission</a>
+                  <a class="active" href="/power-transmission.php">Power Transmission</a>
                 </li>
                 <li>
                   <a href="#">Material Handling</a>

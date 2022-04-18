@@ -23,7 +23,7 @@
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/company.html">Company</a>
+          <a href="/company.php">Company</a>
         </li>
       </ul>
     </section>

@@ -23,7 +23,7 @@
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/power-transmission.html">Power Transmission</a>
+          <a href="/power-transmission.php">Power Transmission</a>
         </li>
       </ul>
     </section>
@@ -50,7 +50,7 @@
             <img src="/assets/imgs/product/gears.jpg" class="w-11/12 mx-auto mb-8" alt="Gears">
             <h4 class="text-primary text-center">Gears</h4>
             <p class="text-center mb-20">From spur gears to worm gears, Martin provides a massive inventory of gears and offers quick delivery on a wide range of specialty gears.</p>
-            <a href="/power-transmission-gears.html" class="b3-button pos-center-bottom">Learn More</a>
+            <a href="/power-transmission-gears.php" class="b3-button pos-center-bottom">Learn More</a>
           </div>
         </div>
         <div class="w-1/2 md:w-1/3 text-center text-xl relative border-b border-solid border-gray-400" data-aos="fade-up">
