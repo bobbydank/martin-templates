@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@300&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/libs/tailwind.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/libs/fontawesome/css/all.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/libs/aos/aos.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/js/libs/mediabox/mediabox.css"/>
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/variables.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/base.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css"/>
+
+  <title>Martin</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="">
+
+  <!-- Don't forget Analytics and Stuff -->
+
+</head>

@@ -1,0 +1,26 @@
+:root {
+
+  --primary-font-family: "Roboto", Sans-serif;
+  --secondary-font-family: 'Fira Sans', sans-serif;
+  --primary-headline-font-family: 'Oswald', sans-serif;;
+
+  --primary-font-color: #333333;
+
+  --primary-color:#062F87;
+  --secondary-color:#F9B23E;
+
+}
+
+.heading-font {font-family: var(--primary-headline-font-family);}
+.secondary-font {font-family: var(--secondary-font-family);}
+.primary-font {font-family: var(--primary-font-family);}
+
+.text-primary {color:var(--primary-color);}
+.text-secondary {color:var(--secondary-color);}
+
+.border-primary {border-color:var(--primary-color);}
+.border-secondary {border-color:var(--secondary-color);}
+
+.grey-bg {background-color:#f0f0f0;}
+.darkgrey-bg {background-color:#c5c5c5;}
+
