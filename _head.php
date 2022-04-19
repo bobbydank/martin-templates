@@ -12,6 +12,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/libs/fontawesome/css/all.min.css"/>
   <link rel="stylesheet" type="text/css" href="/assets/css/libs/aos/aos.css"/>
   <link rel="stylesheet" type="text/css" href="/assets/js/libs/mediabox/mediabox.css"/>
+  <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css"/>
 
   <link rel="stylesheet" type="text/css" href="/assets/css/variables.css"/>
   <link rel="stylesheet" type="text/css" href="/assets/css/base.css"/>

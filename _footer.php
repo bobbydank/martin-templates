@@ -113,7 +113,9 @@
   <script src="/assets/js/libs/jquery.hoverIntent.js"></script>
   <script src="/assets/css/libs/aos/aos.js"></script>
   <script src="/assets/js/libs/mediabox/mediabox.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
 
   <script src="/assets/js/jquery-submenus.js"></script>
   <script src="/assets/js/jquery.js"></script>
   <script src="/assets/js/javascript.js"></script>
+  <script src="/assets/js/mapbox.js"></script>

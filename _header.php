@@ -69,7 +69,7 @@
                     </li>
                     <li>
                       <ul>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/contact.php">Contact</a></li>
                         <li><a href="#">General Info Request</a></li>
                         <li><a href="#">Request a Quote</a></li>
                       </ul>
@@ -97,7 +97,7 @@
               </ul>
               <ul class="md:inline-list line-seperator uppercase border-top inline-block">
                 <li>
-                  <a class="active" href="/power-transmission.php">Power Transmission</a>
+                  <a href="/power-transmission.php">Power Transmission</a>
                 </li>
                 <li>
                   <a href="#">Material Handling</a>
