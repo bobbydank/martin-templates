@@ -9,7 +9,6 @@ var groups = new Array();
 window.onload = function () {
   /* --------------------- Simple INITS ----------------------- */
   AOS.init();
-
   MediaBox('.mediabox');
 
   /* -------------- Mapbox with single location --------------- */

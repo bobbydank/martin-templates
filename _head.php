@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" />
 
   <link rel="stylesheet" type="text/css" href="/assets/css/variables.css"/>
-  <link rel="stylesheet" type="text/css" href="/assets/css/base.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v=<?php echo time(); ?>"/>
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css?v=<?php echo time(); ?>"/>
 
   <title>Martin</title>
