@@ -92,7 +92,7 @@
                   <a href="#">Blog</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="/contact.php">Contact</a>
                 </li>
               </ul>
               <ul class="md:inline-list line-seperator uppercase border-top inline-block">

@@ -43,7 +43,7 @@
       </ul>
       <ul class="inline-list hidden md:block line-seperator uppercase mb-5 block">
         <li>
-          <a href="/company.html">Company</a>
+          <a href="/company.php">Company</a>
         </li>
         <li>
           <a href="#">Resources</a>
@@ -55,12 +55,12 @@
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="/contact.php">Contact</a>
         </li>
       </ul>
       <ul class="inline-list hidden md:block line-seperator uppercase mb-20 block">
         <li>
-          <a href="/power-transmission.html">Power Transmission</a>
+          <a href="/power-transmission.php">Power Transmission</a>
         </li>
         <li>
           <a href="#">Material Handling</a>
@@ -113,9 +113,8 @@
 <script src="/assets/js/libs/jquery.hoverIntent.js"></script>
 <script src="/assets/css/libs/aos/aos.js"></script>
 <script src="/assets/js/libs/mediabox/mediabox.js"></script>
-<script src="https://api.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
 
 <script src="/assets/js/jquery-submenus.js"></script>
 <script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/javascript.js"></script>
-<script src="/assets/js/mapbox.js"></script>
+<script src="/assets/js/javascript.js?v=<?php echo time(); ?>"></script>

@@ -284,3 +284,14 @@ header a {font-family: var(--secondary-font-family);}
     .search-overlay-content {width: 80%;}
     .search-overlay .icon-cancel {top: 15px;right: 15px;}
 }
+
+/* Mapbox
+   ========================================================================== */
+
+.mapbox {padding-top:100%;}
+
+/* Form Elements
+   ========================================================================== */
+
+.submit-button {color:transparent; height:75px; width:150px; display:inline-block; background:url('/assets/imgs/submit-btn.svg') center right no-repeat; background-size:contain; border:none;}
+.submit-button:hover {background-color:transparent; color:transparent;}

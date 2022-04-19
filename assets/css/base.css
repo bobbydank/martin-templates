@@ -354,12 +354,35 @@ input[type="url"],
 select,
 textarea {
     width: 100%;
-    border: solid 1px #666666;
+    background-color:#dbdbdb;
     border-radius: 3px;
     padding: 0.5rem 1rem;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
+    font-size:400;
     transition: all .3s;
+    font-family: var(--secondary-font-family);
+    margin-bottom:15px;
+}
+
+label,
+input[type="radio"],
+input[type="checkbox"] {
+    font-size:400;
+    font-family: var(--secondary-font-family);
+}
+
+textarea {min-height:200px;}
+
+input[type="text"]::placeholder,
+input[type="date"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder,
+input[type="search"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="url"]::placeholder {
+    color:#333;
 }
 
 input[type="text"]:focus,
