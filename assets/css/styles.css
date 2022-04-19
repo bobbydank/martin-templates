@@ -113,6 +113,11 @@ a.no-td:hover {text-decoration:none;}
 
 .pos-center-bottom {position:absolute !important; bottom:2.5rem; left:50%; transform:translateX(-50%);}
 
+.border-round {border-radius:50%; overflow:hidden;}
+
+/* B3 Button
+   ========================================================================== */
+
 .b3-button {
   text-transform: uppercase;
   color:#000;
