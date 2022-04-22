@@ -14,4 +14,3 @@ Nope. You can change the extension on the file from php to html and the files wi
 <?php include '_header.php'; ?>
 <?php include '_footer.php'; ?>
 ```
- code.
