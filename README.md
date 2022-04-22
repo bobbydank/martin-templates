@@ -8,4 +8,8 @@ Simple put, it is a way to keep the code clean. Every page is going to have the 
 Does it need to stay PHP?
 -------------------------
 
-Nope. You can change the extension on the file from php to html and the files will render in a browser like normal. You will need to copy the contents of the _FILE.php to the location of the "<?php include ''; ?>" code.
+Nope. You can change the extension on the file from php to html and the files will render in a browser like normal. You will need to copy the contents of the _FILE.php to the location of the 
+```php
+<?php include '_header.php'; ?>
+```
+ code.
