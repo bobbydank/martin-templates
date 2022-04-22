@@ -3,3 +3,6 @@
 
 # Project Specific
 text.html
+
+# VS Code
+.vscode/*
