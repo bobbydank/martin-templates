@@ -40,7 +40,19 @@
     <section class="clearfix max-w-screen-2xl mx-auto w-11/12 md:w-9/12 secondary-font mb-20 pt-16" data-aos="fade-in">
       <div class="md:mx-8 text-center">
         <h2 class="text-primary font-bold">Product Detail</h2>
-        
+      </div>
+      <div class="md:flex justify-items-stretch justify-start gap-16">
+        <div class="w-full md:w-1/4 my-5">
+          <img src="/assets/imgs/product/gears/gears_spur-gears.jpg" alt="Spur Gears" class="w-full" />
+        </div>
+        <div class="w-full md:w-3/4 my-5">
+          <p><strong></strong></p>
+          <p></p>
+          <p></p>
+          <form action="" method="" enctype="multipart/form-data">
+
+          </form>
+        </div>
       </div>
     </section>
 
