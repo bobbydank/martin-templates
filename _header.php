@@ -1,7 +1,7 @@
 <a class="screen-reader-text" href="#main">Skip to content</a>
 
 <!-- Header -->
-<header id="header" class="relative">
+<header id="header" class="bg-white">
     <div class="header-top py-3">
       <section class="clearfix text-right max-w-screen-2xl mx-auto items-center w-11/12">
         <ul class="inline-list uppercase">

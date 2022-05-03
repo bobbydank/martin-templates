@@ -5,6 +5,8 @@
   });
 
   $(document).ready(function() {
+    main_nav_resizing();
+
     //video slider
     if ($('.b3-video-slider').length) {
       $('.b3-video-slider').each(function (i,e) {
@@ -100,6 +102,24 @@
       $("#brand-window").find(".brand-image").eq(next).fadeIn(1000, function () {
   		$(this).addClass('active');
   	});
+  }
+
+  function main_nav_resizing() {
+    $('header').data('size','big');
+  
+    $(window).scroll(function () {
+      if ($(window).width() > 1000) {
+        if($(document).scrollTop() > 50){
+          if($('header').data('size') == 'big'){
+            $('header').addClass('small').data('size','small');
+          }
+        } else {
+          if($('header').data('size') == 'small'){
+            $('header').removeClass('small').data('size','big');
+          }
+        }
+      }
+    });
   }
 
 })(jQuery);
