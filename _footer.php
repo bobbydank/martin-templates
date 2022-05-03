@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="border-b-4 border-primary border-solid">
+<footer class="border-b-4 border-primary border-solid lines-bg">
   <section class="py-14 clearfix max-w-screen-2xl mx-auto w-11/12 md:flex items-start secondary-font">
     <div class="w-full text-center md:text-left md:w-2/5">
       <a class="block clearfix" href="/">

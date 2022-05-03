@@ -156,7 +156,7 @@ a.no-td:hover {text-decoration:none;}
 .b3-button:hover::before {color:white;}
 .b3-button.bottom-stick {position:absolute; bottom:2rem; left:50%; transform: translateX(-50%);}
 
-.lines-bg {background:url('/assets/imgs/lines-bg.jpg') center center no-repeat; background-size:cover;}
+.lines-bg {background:url('/assets/imgs/lines-bg.jpg') bottom center no-repeat; background-size:100% auto;}
 
 /* Video Slider
    ========================================================================== */
