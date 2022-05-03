@@ -8,7 +8,7 @@
 
   <!-- Main
   This is will be the main content area. Header and Footer should be the same on all pages. -->
-  <main id="main">
+  <main id="main" class="home">
     <section id="brand-window" class="zooming-mark" data-time="5000">
       <div class="container">
   			<div class="brand-image active" data-count="0">
