@@ -14,3 +14,4 @@ Nope. You can change the extension on the file from php to html and the files wi
 <?php include '_header.php'; ?>
 <?php include '_footer.php'; ?>
 ```
+Simply copy of the contents of each file to the where the include statement is located.
