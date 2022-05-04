@@ -29,10 +29,10 @@
           <a href="/power-transmission-gears.php">Gears</a>
         </li>
         <li>
-          <a href="#">Spur Gears</a>
+          <a href="/product-search.php">Spur Gears</a>
         </li>
         <li>
-          <a href="#">Gear Spur 14 1/2 DEG Cast C10100</a>
+          <a href="/product-detail.php">Gear Spur 14 1/2 DEG Cast C10100</a>
         </li>
       </ul>
     </section>
