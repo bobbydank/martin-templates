@@ -3,7 +3,7 @@ header .header-top {transition:all 0.5s;}
 header.small {border-bottom:solid thin #000;}
 header.small .header-top {height:0px; overflow:hidden; padding:0;}
 
-main.home, .page-hero {padding-top:186px;}
+main.home, .page-hero {margin-top:186px;}
 
 /* Product Details
    ========================================================================== */
