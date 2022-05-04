@@ -7,6 +7,32 @@
   $(document).ready(function() {
     main_nav_resizing();
 
+    //product details dropprer
+    if ($('.product-details').length) {
+      $('.product-details').each(function (i,e) {
+        var $this = $(e);
+        var $infoContainer = $this.find('.product-details-info');
+        
+        $this.find('.product-details-tabs li').click(function () {
+          var index = $(this).attr('data-id');
+          var $new = $infoContainer.find('div[data-id="'+index+'"]');
+
+          if ( !$new.hasClass('active') ) {
+            $('.product-details-tabs .active').removeClass('active');
+            $(this).addClass('active');
+
+            $('.product-details-info .active').slideUp('fast', function () {
+              $(this).removeClass('active');
+
+              $new.slideDown('fast', function () {
+                $(this).addClass('active');
+              });
+            });
+          }
+        });
+      });
+    }
+
     //video slider
     if ($('.b3-video-slider').length) {
       $('.b3-video-slider').each(function (i,e) {

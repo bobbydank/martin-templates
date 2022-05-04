@@ -1,8 +1,48 @@
 header {position:fixed; top:0; left:0; right:0; z-index:900;}
-header header {transition:all 0.5s;}
+header .header-top {transition:all 0.5s;}
+header.small {border-bottom:solid thin #000;}
 header.small .header-top {height:0px; overflow:hidden; padding:0;}
 
 main.home, .page-hero {padding-top:186px;}
+
+/* Product Details
+   ========================================================================== */
+
+.product-details-tabs {
+  padding:0 35px;
+  margin-bottom:35px;
+}
+.product-details-tabs ul {
+  display:flex;
+  gap:25px;
+  justify-content: flex-start;
+}
+.product-details-tabs ul li {
+  cursor: pointer;
+  font-family: var(--primary-headline-font-family), Arial, sans-serif;
+  padding:10px 25px;
+  font-weight:600;
+  color:var(--secondary-color);
+  text-transform: uppercase;
+  border:solid thin #000;
+  font-size:1.5rem;
+  transition: 0.5s all;
+}
+.product-details-tabs ul li:hover,
+.product-details-tabs ul li.active {
+  background:black;
+}
+
+@media (max-width:800px) {
+  .product-details-tabs ul li {font-size:1rem;}
+}
+
+.product-details-info > div {
+  display:none;
+}
+.product-details-info > div.active {
+  display:block;
+}
 
 /* Block
    ========================================================================== */
@@ -121,6 +161,8 @@ a.no-td:hover {text-decoration:none;}
 
 .border-round {border-radius:50%; overflow:hidden;}
 
+input[type="number"].qty-field {width:70px; background:white; margin-bottom:0; border:solid thin #333; padding-top:2px; padding-bottom:2px;}
+
 /* B3 Button
    ========================================================================== */
 
@@ -157,6 +199,20 @@ a.no-td:hover {text-decoration:none;}
 .b3-button.bottom-stick {position:absolute; bottom:2rem; left:50%; transform: translateX(-50%);}
 
 .lines-bg {background:url('/assets/imgs/lines-bg.jpg') bottom center no-repeat; background-size:100% auto;}
+
+.b3-button.smaller {padding:3px 25px 4px 10px;}
+.b3-button.black {background:black; color:var(--secondary-color);}
+.b3-button.black::before {color:white;}
+
+div.b3-button input[type="submit"] {
+  padding:0;
+  background:transparent;
+  padding:0 10px 0 0;
+  color:#000;
+  border:none;
+  text-transform:uppercase;
+}
+div.b3-button.black input[type="submit"] {color:var(--secondary-color);}
 
 /* Video Slider
    ========================================================================== */
