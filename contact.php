@@ -30,7 +30,7 @@
 
     <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
       <div class="md:mx-8">
-        <h2 class="text-primary text-center font-bold">Contact</h2>
+        <h2 class="text-primary text-center">Contact</h2>
       </div>
     </section>
 

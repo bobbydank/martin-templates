@@ -30,7 +30,7 @@
 
     <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
       <div class="md:mx-8 text-center">
-        <h2 class="text-primary font-bold">Power transmission products when and where you need them.</h2>
+        <h2 class="text-primary">Power transmission products when and where you need them.</h2>
         <p>Martin carries the largest inventory of stock power transmission components in North America and offers lightning-fast delivery times for altered and made to order parts to keep your equipment in motion.</p>
       </div>
     </section>
@@ -90,7 +90,7 @@
 
     <div class="grey-bg py-32">
       <section class="w-11/12 pb-16 mx-auto">
-        <h2 class="text-primary text-center mb-24 font-bold">Power Transmission Video Library</h2>
+        <h2 class="text-primary text-center mb-24">Power Transmission Video Library</h2>
         <!-- Play with the data-show attribute to define how many are shown at a time -->
         <div class="b3-video-slider text-center" data-show="12">
           <div class="children flex items-center flex-wrap items-stretch">
@@ -338,7 +338,7 @@
 
     <div class="darkgrey-bg py-32">
       <section class="w-11/12 pb-16 mx-auto">
-        <h2 class="text-primary text-center mb-24 font-bold">Power Transmission Brochure Library</h2>
+        <h2 class="text-primary text-center mb-24">Power Transmission Brochure Library</h2>
         <div class="w-11/12 mx-auto">
           <div class="list-dropper up">
             <span>Sprocket Brochures</span>

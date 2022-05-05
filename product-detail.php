@@ -39,7 +39,7 @@
 
     <section class="clearfix max-w-screen-2xl mx-auto w-11/12 md:w-9/12 secondary-font mb-10 pt-16" data-aos="fade-in">
       <div class="md:mx-8 text-center">
-        <h2 class="text-primary font-bold">Product Detail</h2>
+        <h2 class="text-primary">Product Detail</h2>
       </div>
       <div class="md:flex content-center items-center gap-16">
         <div class="w-full md:w-1/4 my-5">

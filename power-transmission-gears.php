@@ -33,7 +33,7 @@
 
     <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
       <div class="md:mx-8 text-center">
-        <h2 class="text-primary font-bold">Martin has the gears you need. When you need them.</h2>
+        <h2 class="text-primary">Martin has the gears you need. When you need them.</h2>
         <p>Martin manufactures Spur Gears and Gear Rack, Bevel Gears, Miter Gears and Worm Gears. With a vast inventory of raw materials, modern machine tool capacity and a pro-service attitude, Martin makes short work of a quick delivery on all specialty gears.</p>
       </div>
     </section>
@@ -45,10 +45,10 @@
             <img src="/assets/imgs/product/gears/gears_spur-gears.jpg" class="w-11/12 mx-auto mb-8" alt="Spur Gears">
             <h4 class="text-primary text-center">Spur Gears</h4>
             <p class="text-center mb-20 secondary-font">
-              <a href="#" class="font-semibold">Product Search</a> |
-              <a href="#">Part Number Interchange Catalog</a> |
-              <a href="#">Literature</a> |
-              <a href="#">Nomenclature Online Training</a>
+              <a href="/product-search.php" class="font-semibold">Product Search</a> |
+              <a href="/product-search.php">Part Number Interchange Catalog</a> |
+              <a href="/product-search.php">Literature</a> |
+              <a href="/product-search.php">Nomenclature Online Training</a>
             </p>
             <a href="#" class="b3-button pos-center-bottom">Request Online Quote</a>
           </div>
@@ -118,7 +118,7 @@
 
     <div class="darkgrey-bg py-32">
       <section class="w-11/12 pb-16 mx-auto">
-        <h2 class="text-primary text-center mb-24 font-bold">Gear Literature Library</h2>
+        <h2 class="text-primary text-center mb-24">Gear Literature Library</h2>
         <div class="w-11/12 mx-auto">
           <ul class="downloads-list">
             <li>

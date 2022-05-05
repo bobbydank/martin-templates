@@ -21,7 +21,7 @@ main.home, .page-hero {margin-top:186px;}
   cursor: pointer;
   font-family: var(--primary-headline-font-family), Arial, sans-serif;
   padding:10px 25px;
-  font-weight:600;
+  font-weight:400;
   color:var(--secondary-color);
   text-transform: uppercase;
   border:solid thin #000;
@@ -47,7 +47,7 @@ main.home, .page-hero {margin-top:186px;}
 /* Block
    ========================================================================== */
 
-.list-dropper {display:block; background:white; border:solid thin #333; max-width:1024px; margin:0 auto 30px; cursor:pointer;}
+.list-dropper {display:block; background:white; border:solid thin #333; max-width:1024px; margin:0 auto 30px; cursor:pointer; font-weight:500;}
 .downloads-list {margin:0 auto; max-width:1024px; font-size:120%; border:solid thin #333;}
 .list-dropper .downloads-list {display:none;}
 .list-dropper .downloads-list {border:none;}
@@ -68,7 +68,7 @@ main.home, .page-hero {margin-top:186px;}
   display:block;
   font-size:90%;
 }
-.list-dropper > span {line-height:1.5; font-family:var(--primary-headline-font-family); padding:10px 57px 10px 40px; display:block; font-size:130%; font-weight:bold;}
+.list-dropper > span {line-height:1.5; font-family:var(--primary-headline-font-family); padding:10px 57px 10px 40px; display:block; font-size:130%;}
 .downloads-list a::before,
 .list-dropper > span::before {
   transform:translateY(-50%);
@@ -226,7 +226,7 @@ div.b3-button.black input[type="submit"] {color:var(--secondary-color);}
 .b3-video-thumb:hover img {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
 
 .video-nav {display:inline-block; border:solid thin #333; padding:3px 12px;}
-.video-nav span {font-family:var(--primary-headline-font-family); font-size:140%; display:inline-block; padding:5px 1px 1px; margin: 0 5px 4px; font-weight: bold; cursor: pointer; border-bottom:solid thin var(--primary-color); color:var(--primary-color);}
+.video-nav span {font-family:var(--primary-headline-font-family); font-size:140%; display:inline-block; padding:5px 1px 1px; margin: 0 5px 4px; cursor: pointer; border-bottom:solid thin var(--primary-color); color:var(--primary-color);}
 .video-nav span.active {color:#333333; border-bottom:none;}
 
 /* Header

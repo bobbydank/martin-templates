@@ -30,7 +30,7 @@
 
     <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
       <div class="md:mx-8">
-        <h2 class="text-primary text-center font-bold">History</h2>
+        <h2 class="text-primary text-center">History</h2>
         <p class="text-2xl leading-9">Martin Sprocket & Gear was founded in 1951 by Joe Martin Sr. Over the decades Martin has expanded through machining, fabrication, forging, casting, powdered metal technology and machined & injection molded plastic of power transmission components, material handling products and industrial hand tools.</p>
         <p>Martin has grown to include manufacturing and sales facilities strategically located worldwide. Martin's philosophy is simple. "Make a quality product, have plenty of it available and be easy to do business with!" Martin accomplishes this by combining the convenience of regional & branch manufacturing plants with the strength of our distributors.</p>
         <p>In the power transmission, bulk material handling, industrial hand tools and conveyor pulley industries, there's one company that stands apart—it's the one with the reputation for exceptional customer service—the one with parts and materials in stock nationwide—the one that provides quick turnaround times on MTOs and alterations—the one that keeps operations up and running with minimum downtime.</p>
@@ -45,7 +45,7 @@
 
     <div class="grey-bg py-32">
       <section class="max-w-screen-2xl mx-auto w-11/12 md:w-9/12">
-        <h2 class="text-primary text-center font-bold">Why Martin?</h2>
+        <h2 class="text-primary text-center">Why Martin?</h2>
         <div class="flex items-center flex-wrap items-stretch">
           <div class="w-1/2 md:w-1/3 text-center text-xl relative md:border-r border-b border-solid border-gray-400" data-aos="fade-up">
             <div class="block md:p-10 p-6 no-td">
