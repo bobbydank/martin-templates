@@ -58,7 +58,7 @@
                     </li>
                     <li>
                       <ul>
-                        <li><a href="#">Locations</a></li>
+                        <li><a href="locations.php">Locations</a></li>
                         <li><a href="#">United States</a></li>
                         <li><a href="#">Canada</a></li>
                         <li><a href="#">Mexico</a></li>
