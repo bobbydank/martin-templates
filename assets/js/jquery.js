@@ -7,6 +7,33 @@
   $(document).ready(function() {
     main_nav_resizing();
 
+    //clear search
+    $('#clear-search').click(function (e) {
+      e.preventDefault();
+      $(this).parent().find('input[type="search"]').val('');
+    });
+
+    //clear filters
+    $('#clear-filters').click(function (e) {
+      e.preventDefault();
+      $('#filters input[type="checkbox"]').prop( "checked", false );
+    });
+
+    //filter drop
+    if ($('.filter-drop').length) {
+      $('.filter-drop h4').click(function () {
+        var $this = $(this).parent();
+
+        if ($this.hasClass('active')) {
+          $this.find('ul').slideUp();
+          $this.removeClass('active');
+        } else {
+          $this.find('ul').slideDown('fast');
+          $this.addClass('active');
+        }
+      });
+    }
+
     //product details dropprer
     if ($('.product-details').length) {
       $('.product-details').each(function (i,e) {
