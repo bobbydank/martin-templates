@@ -44,33 +44,33 @@ window.onload = function () {
 };
 
 function b3_fitToBounds(map, group) {
-	if (group.length === 1) {
-		map.flyTo({
-			center: group[0],
-			zoom: 10,
-			speed: 3,
-		});
-	} else {
-		// https://github.com/mapbox/mapbox-gl-js/issues/4846
-		// Pass the first coordinates in the LineString to `lngLatBounds` &
-		// wrap each coordinate pair in `extend` to include them in the bounds
-		// result. A variation of this technique could be applied to zooming
-		// to the bounds of multiple Points or Polygon geomteries - it just
-		// requires wrapping all the coordinates with the extend method.
-		var bounds = group.reduce(function(bounds, coord) {
-			return bounds.extend(coord);
-		}, new mapboxgl.LngLatBounds(group[0], group[0]));
-
-		map.setPitch(1);
-		map.setBearing(1);
-		//map.setCurve(1);
-		map.fitBounds(bounds, {
-			padding: {
-				top: 50,
-				bottom: 50,
-				left: 50,
-				right: 50
-			}
-		});
-	}
+  if (group.length === 1) {
+	map.flyTo({
+	  center: group[0],
+	  zoom: 10,
+	  speed: 3,
+	});
+  } else {
+	// https://github.com/mapbox/mapbox-gl-js/issues/4846
+	// Pass the first coordinates in the LineString to `lngLatBounds` &
+	// wrap each coordinate pair in `extend` to include them in the bounds
+	// result. A variation of this technique could be applied to zooming
+	// to the bounds of multiple Points or Polygon geomteries - it just
+	// requires wrapping all the coordinates with the extend method.
+	var bounds = group.reduce(function(bounds, coord) {
+	  return bounds.extend(coord);
+	}, new mapboxgl.LngLatBounds(group[0], group[0]));
+	
+	map.setPitch(1);
+	map.setBearing(1);
+	//map.setCurve(1);
+	map.fitBounds(bounds, {
+	  padding: {
+		top: 50,
+		bottom: 50,
+		left: 50,
+		right: 50
+	  }
+	});
+  }
 }
