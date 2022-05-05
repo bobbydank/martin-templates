@@ -33,13 +33,13 @@
 
     <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
       <div class="md:mx-8">
-        <h2 class="text-primary text-center">History</h2>
-        <p class="text-2xl leading-9">Martin Sprocket & Gear was founded in 1951 by Joe Martin Sr. Over the decades Martin has expanded through machining, fabrication, forging, casting, powdered metal technology and machined & injection molded plastic of power transmission components, material handling products and industrial hand tools.</p>
-        <p>Martin has grown to include manufacturing and sales facilities strategically located worldwide. Martin's philosophy is simple. "Make a quality product, have plenty of it available and be easy to do business with!" Martin accomplishes this by combining the convenience of regional & branch manufacturing plants with the strength of our distributors.</p>
-        <p>In the power transmission, bulk material handling, industrial hand tools and conveyor pulley industries, there's one company that stands apart—it's the one with the reputation for exceptional customer service—the one with parts and materials in stock nationwide—the one that provides quick turnaround times on MTOs and alterations—the one that keeps operations up and running with minimum downtime.</p>
-        <p>Over the years, Martin has proven to be easy to do business with, and Martin's philosophy of providing quality products, exceptional inventory and service “second to none” has proved to be a successful and innovative combination. As a result of this philosophy, Martin has grown to be a world-class leader in the industrial marketplace.</p>
-        <p>Every Martin plant in North America has complete product line inventory of the entire product line. And, every plant has the ability to manufacture or custom alter parts with complete machining. Finished product can be staged locally for release per customer schedule.</p>
+        <h2 class="text-primary text-center mb-20">Locations</h2>
+        <p>Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
       </div>
+    </section>
+
+    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
+
     </section>
 
     
