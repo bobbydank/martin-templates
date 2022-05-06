@@ -1,9 +1,11 @@
-header {position:fixed; top:0; left:0; right:0; z-index:900;}
-header .header-top {transition:all 0.5s;}
-header.small {border-bottom: 10px solid var(--secondary-color);}
-header.small .header-top {height:0px; overflow:hidden; padding:0;}
+@media (min-width:767px) {
+  header {position:fixed; top:0; left:0; right:0; z-index:900;}
+  header .header-top {transition:all 0.5s;}
+  header.small {border-bottom: 10px solid var(--secondary-color);}
+  header.small .header-top {height:0px; overflow:hidden; padding:0;}
 
-main.home, .page-hero {margin-top:186px;}
+  main.home, .page-hero {margin-top:186px;}
+}
 
 /* Product Details
    ========================================================================== */

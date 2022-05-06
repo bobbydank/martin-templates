@@ -31,18 +31,60 @@
       </ul>
     </section>
 
-    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
+    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-14" data-aos="fade-in">
       <div class="md:mx-8">
         <h2 class="text-primary text-center mb-20">Locations</h2>
         <p>Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
       </div>
     </section>
 
-    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
-
+    <section class="clearfix max-w-screen-2xl mx-auto secondary-font mb-20" data-aos="fade-in">
+      <div class="flex justify-start flex-wrap">
+        <div class="w-1/3 md:w-1/6 text-center">
+          <div class="p-5">
+            <img src="/assets/imgs/flags/usa.svg" class="w-full" alt="United States">
+            <p>United States</p>
+          </div>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <div class="p-5">
+            <img src="/assets/imgs/flags/canada.svg" class="w-full" alt="United States">
+            <p>Canada</p>
+          </div>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <div class="p-5">
+            <img src="/assets/imgs/flags/mexico.svg" class="w-full" alt="United States">
+            <p>Mexico</p>
+          </div>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <div class="p-5">
+            <img src="/assets/imgs/flags/brazil.svg" class="w-full" alt="United States">
+            <p>Brazil</p>
+          </div>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <div class="p-5">
+            <img src="/assets/imgs/flags/china.svg" class="w-full" alt="United States">
+            <p>China</p>
+          </div>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <div class="p-5">
+            <img src="/assets/imgs/flags/uk.svg" class="w-full" alt="United States">
+            <p>United Kingdom</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    
+    <section class="clearfix max-w-screen-2xl mx-auto" data-aos="fade-in">
+      <div class="marker" data-lat="32.695030" data-lng="-97.145870">
+        
+      </div>
+    </section>
+
   </main>
   <!-- End Main -->
 
