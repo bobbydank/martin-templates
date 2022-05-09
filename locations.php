@@ -41,37 +41,37 @@
     <section class="clearfix max-w-screen-2xl mx-auto secondary-font mb-20" data-aos="fade-in">
       <div class="flex justify-start flex-wrap">
         <div class="w-1/3 md:w-1/6 text-center">
-          <div class="p-5">
+          <div class="p-5 lg:p-10">
             <img src="/assets/imgs/flags/usa.svg" class="w-full" alt="United States">
             <p>United States</p>
           </div>
         </div>
         <div class="w-1/3 md:w-1/6 text-center">
-          <div class="p-5">
+          <div class="p-5 lg:p-10">
             <img src="/assets/imgs/flags/canada.svg" class="w-full" alt="United States">
             <p>Canada</p>
           </div>
         </div>
         <div class="w-1/3 md:w-1/6 text-center">
-          <div class="p-5">
+          <div class="p-5 lg:p-10">
             <img src="/assets/imgs/flags/mexico.svg" class="w-full" alt="United States">
             <p>Mexico</p>
           </div>
         </div>
         <div class="w-1/3 md:w-1/6 text-center">
-          <div class="p-5">
+          <div class="p-5 lg:p-10">
             <img src="/assets/imgs/flags/brazil.svg" class="w-full" alt="United States">
             <p>Brazil</p>
           </div>
         </div>
         <div class="w-1/3 md:w-1/6 text-center">
-          <div class="p-5">
+          <div class="p-5 lg:p-10">
             <img src="/assets/imgs/flags/china.svg" class="w-full" alt="United States">
             <p>China</p>
           </div>
         </div>
         <div class="w-1/3 md:w-1/6 text-center">
-          <div class="p-5">
+          <div class="p-5 lg:p-10">
             <img src="/assets/imgs/flags/uk.svg" class="w-full" alt="United States">
             <p>United Kingdom</p>
           </div>
