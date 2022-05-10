@@ -79,9 +79,53 @@
       </div>
     </section>
 
-    <section class="clearfix max-w-screen-2xl mx-auto" data-aos="fade-in">
-      <div class="marker" data-lat="32.695030" data-lng="-97.145870">
-        
+    <section class="clearfix" data-aos="fade-in">
+      <div class="mapbox category-map" id="full-map" data-whitewater="1">
+        <!-- Categories -->
+        <div class="marker category" data-category="usa" data-lat="39.8283" data-lng="-98.5795" data-icon="/assets/imgs/flags/usa-pin.png"></div>
+        <div class="marker category" data-category="canada" data-lat="56.1304" data-lng="-106.3468" data-icon="/assets/imgs/flags/canada-pin.png"></div>
+        <div class="marker category" data-category="mexico" data-lat="23.6345" data-lng="-100.5528" data-icon="/assets/imgs/flags/mexico-pin.png"></div>
+        <div class="marker category" data-category="brazil" data-lat="-14.2350" data-lng="-51.9253" data-icon="/assets/imgs/flags/brazil-pin.png"></div>
+        <div class="marker category" data-category="china" data-lat="35.8617" data-lng="104.1954" data-icon="/assets/imgs/flags/china-pin.png"></div>
+        <div class="marker category" data-category="uk" data-lat="55.3781" data-lng="-3.4360" data-icon="/assets/imgs/flags/uk-pin.png"></div>
+        <!-- End Categories -->
+
+        <!-- USA Offices  -->
+        <div class="marker location usa" data-lat="32.695030" data-lng="-97.145866" data-color="#062F87">
+          <img src="/assets/imgs/map-images/corporate.jpg" alt="Corporate Office - Arlington, Texas" />
+          <h4>Corporate Office - Arlington, Texas</h4>
+          <p>
+            3100 Sprocket Drive <br />
+            Arlington, TX 76015<br />
+            Fax  817-258-3333
+          </p>
+        </div>
+        <!-- End USA Offices  -->
+
+        <!-- Canada Offices  -->
+
+        <!-- End Canada Offices  -->
+
+        <!-- Mexico Offices  -->
+
+        <!-- End Mexico Offices  -->
+
+        <!-- Brazil Offices  -->
+
+        <!-- End Brazil Offices  -->
+
+        <!-- China Offices  -->
+
+        <!-- End China Offices  -->
+
+        <!-- UK Offices  -->
+
+        <!-- End UK Offices  -->
+
+        <div id="map-detail">
+          <div class="inner"></div>
+          <div class="reset" data-group="">Close</div>
+        </div>
       </div>
     </section>
 

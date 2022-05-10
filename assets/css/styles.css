@@ -354,7 +354,71 @@ header a {font-family: var(--secondary-font-family);}
 /* Mapbox
    ========================================================================== */
 
-.mapbox {padding-top:100%;}
+#small-map {padding-top:100%;}
+#full-map {height:800px;}
+.mapboxgl-ctrl-bottom-right {opacity:0;}
+.map-marker i {font-size:30px;}
+.map-icon {height:75px; color:var(--secondary-color); width:50px; background-size:contain; background-repeat: no-repeat; cursor:pointer;}
+
+@media (max-width:1200px) {
+  #full-map {height:600px;}
+}
+
+@media (max-width: 767px) {
+  #full-map {height:400px;}
+}
+
+#map-detail.active {
+  padding: 0rem;
+  background-color: rgba(197, 192, 159, 0.87);
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  opacity: 1;
+  -webkit-box-shadow: 0px 1px 46px rgba(0, 0, 0, .5);
+  box-shadow: 0px 1px 46px rgba(0, 0, 0, .5);
+  visibility: visible;
+}
+#map-detail {
+  position: absolute;
+  padding: 0rem;
+  z-index: 900;
+  background-color: rgba(197, 192, 159, 0.87);
+  opacity: 0;
+  width: 26%;
+  max-height: 420px;
+  height: auto;
+  bottom: 0px;
+  top: 50%;
+  left: 115px;
+  transform: translateY(-153px);
+  margin: 0;
+  box-shadow: 0 10px 45px rgba(0,0,0,0.45);
+  transition: opacity 1s ease 0s,height 1s ease 0s,box-shadow .5s ease 0s;
+  visibility: hidden;
+}
+#map-detail.zolo-rep {max-height:250px; width:20%; top: 60%;}
+#map-detail.right {left:auto; right:415px;}
+@media (max-width:1400px) {
+  #map-detail {left: 50px; width: 29%;}
+  #map-detail.right {left:auto; right:375px;}
+}
+#map-detail .company_title {
+  background: #00AEEF;
+  padding: .5rem 1rem;
+  color: #fff;
+  font-size: 19px;
+  line-height:1.3;
+}
+#map-detail .company_title.home {
+  background:#f2a03e;
+}
+#map-detail .company_title.rep {background:#76B236;}
+#map-detail .inset {padding: .5rem 1rem; height: 339px; overflow: auto;}
+#map-detail .inset p {line-height:1.4; font-size:15px; margin-bottom:15px;}
+#map-detail.zolo-rep .inset p {margin-bottom:5px; font-size:17px;}
+#map-detail .inset h3 {margin-bottom:5px; font-size:18px; color: #00AEEF; line-height:1.5;}
+#map-detail .inset h3.rep {color: #76B236;}
 
 /* Form Elements
    ========================================================================== */
