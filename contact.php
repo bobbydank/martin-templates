@@ -88,7 +88,7 @@
           <p><a href="#">Contact Branch »</a></p>
         </div>
         <div class="w-full md:w-2/4">
-          <div id="mapbox1" class="mapbox border-round">
+          <div id="small-map" class="mapbox border-round">
             <div class="marker" data-lat="32.695030" data-lng="-97.145870"></div>
           </div>
         </div>
