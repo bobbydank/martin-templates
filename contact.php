@@ -89,7 +89,7 @@
         </div>
         <div class="w-full md:w-2/4">
           <div id="small-map" class="mapbox border-round">
-            <div class="marker" data-lat="32.695030" data-lng="-97.145870"></div>
+            <div class="marker" data-lat="32.695030" data-lng="-97.145870" data-color="#F9B23E"></div>
           </div>
         </div>
       </div>
