@@ -193,6 +193,8 @@ function b3_mapReset(event) {
     btn.classList.remove('active');
   }
 
+  b3_closeDetails();
+
   b3_parseCategory('full-map', 'category');
 }
 
