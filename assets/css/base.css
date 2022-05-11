@@ -456,7 +456,7 @@ button,
 [type="button"] {
     display: inline-block;
     font-weight: 400;
-    color: #CC3366;
+    color: var(--primary-color);
     text-align: center;
     white-space: nowrap;
     -webkit-user-select: none;
@@ -464,7 +464,7 @@ button,
     -ms-user-select: none;
     user-select: none;
     background-color: transparent;
-    border: 1px solid #CC3366;
+    border: 1px solid var(--primary-color);
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border-radius: 3px;
@@ -486,7 +486,7 @@ button:hover, button:focus,
 [type="button"]:hover,
 [type="button"]:focus {
     color: #ffffff;
-    background-color: #CC3366;
+    background-color: var(--primary-color);
     text-decoration: none;
 }
 
