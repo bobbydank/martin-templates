@@ -326,7 +326,7 @@ header a {font-family: var(--secondary-font-family);}
 /* Footer
    ========================================================================== */
 
-.footer-logo {max-width:300px;}
+.footer-logo {max-width:200px;}
 
 .social-icons {}
 .social-icons li {display:inline-block; margin:0 2px;}
@@ -357,8 +357,31 @@ header a {font-family: var(--secondary-font-family);}
 #small-map {padding-top:100%;}
 #full-map {height:800px;}
 .mapboxgl-ctrl-bottom-right {opacity:0;}
+.map-marker {cursor: pointer; display:none;}
+.map-marker.active {display:block;}
+.map-marker .inner {display:none;}
 .map-marker i {font-size:30px;}
 .map-icon {height:75px; color:var(--secondary-color); width:50px; background-size:contain; background-repeat: no-repeat; cursor:pointer;}
+
+#full-map #full-reset {
+  display:none;
+  border:solid thin var(--primary-color);
+  background-color:white;
+  border-radius:5px;
+  position: absolute;
+  bottom:5%;
+  left:50%;
+  transform:translateX(-50%);
+  z-index: 1000;
+  padding:5px 10px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-weight:bold;
+}
+
+#full-map #full-reset.active {
+  display:block;
+}
 
 @media (max-width:1200px) {
   #full-map {height:600px;}
@@ -397,11 +420,8 @@ header a {font-family: var(--secondary-font-family);}
   transition: opacity 1s ease 0s,height 1s ease 0s,box-shadow .5s ease 0s;
   visibility: hidden;
 }
-#map-detail.zolo-rep {max-height:250px; width:20%; top: 60%;}
-#map-detail.right {left:auto; right:415px;}
 @media (max-width:1400px) {
   #map-detail {left: 50px; width: 29%;}
-  #map-detail.right {left:auto; right:375px;}
 }
 #map-detail .company_title {
   background: #00AEEF;
@@ -413,12 +433,21 @@ header a {font-family: var(--secondary-font-family);}
 #map-detail .company_title.home {
   background:#f2a03e;
 }
-#map-detail .company_title.rep {background:#76B236;}
 #map-detail .inset {padding: .5rem 1rem; height: 339px; overflow: auto;}
 #map-detail .inset p {line-height:1.4; font-size:15px; margin-bottom:15px;}
-#map-detail.zolo-rep .inset p {margin-bottom:5px; font-size:17px;}
-#map-detail .inset h3 {margin-bottom:5px; font-size:18px; color: #00AEEF; line-height:1.5;}
-#map-detail .inset h3.rep {color: #76B236;}
+#map-detail .inset h4 {margin-bottom:5px; font-size:18px; color: var(--primary-color); line-height:1.5;}
+#map-detail img {width:100%; margin-bottom:15px; object-fit: cover; height:200px;}
+
+#map-detail .reset {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
 
 /* Form Elements
    ========================================================================== */

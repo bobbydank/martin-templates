@@ -69,15 +69,21 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         var markEle = document.createElement('div');
+        
         markEle.classList.add('map-marker');
+        markEle.dataset.lat = lat;
+		    markEle.dataset.lng = lng;
         markEle.style.color = color;
+
+        var elemId = b3_generateID();
+        markEle.id = elemId;
 
         // check html
         if (html) {
           var inner = document.createElement('div');
           inner.classList.add('inner');
           inner.innerHTML = html;
-          markEle.innerHTML = inner;
+          markEle.appendChild(inner);
         }
 
         // copy classes
@@ -92,22 +98,53 @@ document.addEventListener("DOMContentLoaded", function() {
           markEle.style.backgroundImage = 'url("'+icon+'")';
         } else {
           markEle.classList.add('map-marker'); 
-          markEle.innerHTML = '<i class="fa-solid fa-location-dot"></i>';
+          markEle.innerHTML += '<i class="fa-solid fa-location-dot"></i>';
         }
 
         // starting opacity
-        if (catMap && !marker.classList.contains('category')) {
-          markEle.style.opacity = 0;
+        if (catMap) {
+          if (marker.classList.contains('category')) {
+            markEle.style.display = 'block';
+          } else {
+            markEle.style.display = 'none';
+          }
         }
 
-        //click?
-        if (category) {
+        // click?
+        if (marker.classList.contains('location')) {
           markEle.addEventListener('click', function () {
-            b3_parseCategory(container.id, category);
+            //console.log(elemId);
+  
+            //fly to location
+            map.flyTo({
+              center: [lng, lat],
+              zoom: 17,
+              speed: 1,
+              bearing: 90,
+              pitch: 82,
+              curve: 2
+            });
+          
+            // disable user from rotating the map
+            map.dragRotate.disable();
+
+            //get html
+            let m = document.getElementById(elemId);
+            let h = m.getElementsByClassName('inner')[0].innerHTML; //better be only one inner
+
+            let details = document.getElementById('map-detail');
+            let inner = details.getElementsByClassName('inner')[0]
+            inner.innerHTML = h;
+            details.classList.add('active');
           });
-        } else if (html) {
+        } else if (marker.classList.contains('category')) {
           markEle.addEventListener('click', function () {
-            
+            var btn = document.getElementById('full-reset');
+            if (btn && !btn.classList.contains('active')) {
+              btn.classList.add('active');
+            }
+
+            b3_parseCategory(container.id, category);
           });
         }
 
@@ -129,20 +166,69 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /**
  * 
+ * @param {*} event 
+ * @param {*} category 
+ */
+function b3_bigCat(event, category) {
+  event.preventDefault();
+
+  var btn = document.getElementById('full-reset');
+  if (btn && !btn.classList.contains('active')) {
+    btn.classList.add('active');
+  }
+
+  b3_parseCategory('full-map', category);
+}
+
+/**
+ * 
+ * @param {*} event 
+ * @param {*} containerId 
+ */
+function b3_mapReset(event) {
+  event.preventDefault();
+
+  var btn = document.getElementById('full-reset');
+  if (btn && btn.classList.contains('active')) {
+    btn.classList.remove('active');
+  }
+
+  b3_parseCategory('full-map', 'category');
+}
+
+/**
+ * 
  * @param {*} containerId 
  * @param {*} category 
  */
 function b3_parseCategory(containerId, category) {
   let marks = document.getElementById(containerId).querySelectorAll('.map-marker.'+category);
+
   if (marks.length) {
+    var group = new Array();
+
     //hide all markers
     document.getElementById(containerId).querySelectorAll('.map-marker').forEach((m) => {
-      m.style.opacity = 0;
+      m.style.display = 'none';
     });
 
     marks.forEach((m) => {
-      m.style.opacity = 1;
+      var lat = parseFloat( m.dataset.lat );
+      var lng = parseFloat( m.dataset.lng );
+
+      m.style.display = 'block';
+
+      group.push([lng, lat]);
     });
+
+    let cont = document.getElementById(containerId);
+    if (category === 'category') {
+      delete cont.dataset.category;
+    } else {
+      cont.dataset.category = category;
+    }
+
+    b3_fitToBounds(map, group);
   } else {
     alert('No locations with that category found.');
   }
@@ -168,6 +254,9 @@ function b3_fitToBounds(map, group) {
       center: group[0],
       zoom: 10,
       speed: 3,
+      bearing: 1,
+			pitch: 1,
+			curve: 1
     });
   } else {
     // https://github.com/mapbox/mapbox-gl-js/issues/4846
@@ -189,22 +278,24 @@ function b3_fitToBounds(map, group) {
   }
 }
 
+/**
+ * 
+ * @returns unique string
+ */
+function b3_generateID() {
+  return "id" + Math.random().toString(16).slice(6) + (new Date()).getTime();
+}
 
-/*
 
-marker.getElement().addEventListener('click', function () {
-  markers.forEach((m) => {
-    m.style.opacity = 0;
-  });
+function b3_closeDetails() {
+  let details = document.getElementById('map-detail')
+  details.classList.remove('active');
 
-  let marks = container.querySelectorAll('.'+category);
-  if (marks.length) {
-    marks.forEach((m) => {
-      console.log(m);
-    });
+  let container = document.getElementById('full-map');
+  let cat = container.dataset.category;
+  if (cat) {
+    b3_parseCategory('full-map', cat);
   } else {
-    alert('No locations with that category found.');
+    b3_parseCategory('full-map', 'category');
   }
-}); 
-
-          */
+}
