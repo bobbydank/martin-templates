@@ -102,7 +102,7 @@
 
 .inline-list {}
 .inline-list li {display:inline-block; list-style:none; line-height:1; position:relative;}
-.inline-list.line-seperator li {border-right:solid 1px #333;}
+.inline-list.line-seperator li {border-right:solid 1px #333; margin-left:-4px;}
 .inline-list.line-seperator li:last-child {border-right:none;}
 .inline-list.carrot-seperator li {padding-right:15px;}
 .inline-list.carrot-seperator li:last-child {padding-right:0;}
@@ -118,7 +118,7 @@
 @media (min-width: 768px) {
   .md\:inline-list {}
   .md\:inline-list li {display:inline-block; list-style:none; line-height:1; position:relative;}
-  .md\:inline-list.line-seperator li {border-right:solid 1px #333;}
+  .md\:inline-list.line-seperator li {border-right:solid 1px #333; margin-left:-4px;}
   .md\:inline-list.line-seperator li:last-child {border-right:none;}
   .md\:inline-list.carrot-seperator li {padding-right:15px;}
   .md\:inline-list.carrot-seperator li:last-child {padding-right:0;}

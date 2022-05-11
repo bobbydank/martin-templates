@@ -14,16 +14,16 @@
           <li class="header-flag">
             <img src="assets/imgs/mexican-flag.png" class="w-full" alt="Mexican Flag" />
           </li>
-          <li class="">
+          <li class="ml-3">
             <ul class="inline-list hidden md:block line-seperator white-lines">
               <li>
-                <a class="text-white" href="#">My Account</a>
+                <a class="text-white hover:text-secondary" href="#">My Account</a>
               </li>
               <li>
-                <a class="text-white" href="#">Careers</a>
+                <a class="text-white hover:text-secondary" href="#">Careers</a>
               </li>
               <li>
-                <a class="text-secondary" href="#">Request a quote</a>
+                <a class="text-secondary hover:text-white" href="#">Request a quote</a>
               </li>
             </ul>
           </li>
