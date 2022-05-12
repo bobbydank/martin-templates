@@ -100,6 +100,9 @@
               Arlington, TX 76015<br />
               Fax  817-258-3333
             </p>
+            <p>
+              <a href="https://maps.google.com/?q=32.695030,-97.145866" target="_blank">Get Directions</a>
+            </p>
           </div>
         </div>
         <div class="marker location usa" data-lat="33.624060" data-lng="-95.053010" data-color="#FF0000">
