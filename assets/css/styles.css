@@ -355,7 +355,7 @@ header a {font-family: var(--secondary-font-family);}
    ========================================================================== */
 
 #small-map {padding-top:100%;}
-#full-map {height:800px;}
+#full-map {max-height:800px; height:100vh;}
 .mapboxgl-ctrl-bottom-right {opacity:0;}
 .map-marker {cursor: pointer; display:none;}
 .map-marker.active {display:block;}
@@ -384,11 +384,11 @@ header a {font-family: var(--secondary-font-family);}
 }
 
 @media (max-width:1200px) {
-  #full-map {height:600px;}
+  #full-map {max-height:700px;}
 }
 
 @media (max-width: 767px) {
-  #full-map {height:400px;}
+  #full-map {max-height:600px;}
 }
 
 #map-detail.active {
@@ -437,6 +437,7 @@ header a {font-family: var(--secondary-font-family);}
 #map-detail .inset p {line-height:1.4; font-size:15px; margin-bottom:15px;}
 #map-detail .inset h4 {margin-bottom:5px; font-size:18px; color: var(--primary-color); line-height:1.5;}
 #map-detail img {width:100%; margin-bottom:15px; object-fit: cover; height:200px;}
+#map-detail a {color:var(--primary-color);}
 
 #map-detail .reset {
   text-align: center;
@@ -447,6 +448,12 @@ header a {font-family: var(--secondary-font-family);}
   position: absolute;
   bottom: 10px;
   right: 15px;
+}
+
+@media (max-width:850px) {
+  #map-detail {width:90%; top:20px; left:20px; transform: translateY(0); z-index: 1000001;}
+  #map-detail .company_title {font-size:18px;}
+  #map-detail .inset p {font-size:16px;}
 }
 
 /* Form Elements
