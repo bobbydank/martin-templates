@@ -603,10 +603,6 @@ select {
     display: block;
 }
 
-/*
-DO NOT CHANGE THIS FILE
-to override any of the settings in this section, add your styling code in the custom directory.
- */
 /* Table
    ========================================================================== */
 table {
@@ -696,13 +692,6 @@ li {
     background: transparent;
 }
 
-
-
-/**
- * DO NOT CHANGE THIS FILE!
- * To override any of the settings in this section, add your styling code in the custom directory.
- * Loading first in the style.scss & editor-style.scss
- */
 /* Basic responsive layout
    ========================================================================== */
 .site-header, body:not([class*="elementor-page-"]) .site-main {
@@ -773,10 +762,6 @@ li {
     height: 100%;
   }
 
-/*
-DO NOT CHANGE THIS FILE
-to override any of the settings in this section, add your styling code in the custom directory.
- */
 /* General - https://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
 .alignright {
