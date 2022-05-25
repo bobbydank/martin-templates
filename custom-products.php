@@ -167,13 +167,13 @@
             </li>
             <li>
               <a href="https://www.martinsprocket.com/docs//brochures/custom%20products/sprocket-rollers.pdf">
-                <p>MartinStar Wheels Flyer</p>
+                <p>Martin Sprocket Rollers Flyer</p>
                 <p>Download PDF</p>
               </a>
             </li>
             <li>
               <a href="https://www.martinsprocket.com/docs//brochures/custom%20products/star-wheels-brochure.pdf">
-                <p>Sprocket Rollers Flyer</p>
+                <p>Star Wheels Flyer</p>
                 <p>Download PDF</p>
               </a>
             </li>
