@@ -48,7 +48,7 @@
               <a href="#" class="b3-button">Request Online Quote</a>
             </div>
             <div class="block">
-              <a href="#" class="b3-button">Learn More</a>
+              <a href="/forgings.php" class="b3-button">Learn More</a>
             </div>
           </div>
         </div>
