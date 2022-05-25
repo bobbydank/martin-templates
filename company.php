@@ -40,7 +40,9 @@
     </section>
 
     <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 mb-32">
-      <iframe class="b3-dark-shadow" style="width:100%;" height="581" src="https://player.vimeo.com/video/148416803" frameborder="0"></iframe>
+      <div class="video-container">
+        <iframe class="b3-dark-shadow" style="width:100%;" height="581" src="https://player.vimeo.com/video/148416803" frameborder="0"></iframe>
+      </div>
     </section>
 
     <div class="grey-bg py-32">
