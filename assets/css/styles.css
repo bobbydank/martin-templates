@@ -289,7 +289,7 @@ header a {font-family: var(--secondary-font-family);}
 .submenu-select {display:none; width:92% !important; max-width:600px; margin:0 auto;}
 
 #menu ul ul {display:none;}
-#menu #the-menu > li > ul {margin:5px 0 5px 15px;}
+#menu .the-menu > li > ul {margin:5px 0 5px 15px;}
 #menu i {color:white; font-size:35px;}
 
 @media (min-width:767px) {

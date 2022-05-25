@@ -115,6 +115,6 @@
 <script src="/assets/js/libs/mediabox/mediabox.js"></script>
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
 
-<script src="/assets/js/jquery-submenus.js"></script>
+<script src="/assets/js/jquery-submenus.js?v=<?php echo time(); ?>"></script>
 <script src="/assets/js/jquery.js?v=<?php echo time(); ?>"></script>
 <script src="/assets/js/javascript.js?v=<?php echo time(); ?>"></script>

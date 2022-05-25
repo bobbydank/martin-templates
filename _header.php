@@ -52,7 +52,7 @@
               <div class="menu-close block md:hidden">
                 <i class="fa-solid fa-circle-xmark"></i>
               </div>
-              <ul id="the-menu" class="md:inline-list line-seperator uppercase">
+              <ul class="the-menu md:inline-list line-seperator uppercase">
                 <li>
                   <a href="/company.php">Company</a>
                   <ul>
@@ -98,9 +98,128 @@
                   <a href="/contact.php">Contact</a>
                 </li>
               </ul>
-              <ul class="md:inline-list line-seperator uppercase border-top inline-block">
+              <ul class="the-menu md:inline-list line-seperator uppercase border-top inline-block">
                 <li>
                   <a href="/power-transmission.php">Power Transmission</a>
+                  <ul class="subs">
+                      <li>
+                          <a href="#">Sprockets</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Roller Chain Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">Metric Roller Chain Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">800 Series Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">Engineering Class Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">Idler Sprockets</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Gears</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Spur Gears</a>
+                              </li>
+                              <li>
+                                  <a href="#">Gear Rack</a>
+                              </li>
+                              <li>
+                                  <a href="#">Bevel Gears</a>
+                              </li>
+                              <li>
+                                  <a href="#">Miter Gears</a>
+                              </li>
+                              <li>
+                                  <a href="#">Worms and Worm Gears</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Sheaves</a>
+                          <ul>
+                              <li>
+                                  <a href="#">QD Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">Variable Pitch Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">Taper Bushed Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">Fractional Horsepower Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">MST® Sheaves</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Bushings</a>
+                          <ul>
+                              <li>
+                                  <a href="#">QD Bushings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Taper Bushed Bushings</a>
+                              </li>
+                              <li>
+                                  <a href="#">MST® Bushings</a>
+                              </li>
+                              <li>
+                                  <a href="#">QD Idler Bushings</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Synchronous Sprockets</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Timing Belt Pulleys</a>
+                              </li>
+                              <li>
+                                  <a href="#">High HP HTS® Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">HTS® Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">MPC® Sprockets</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Couplings</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Blue-Flex® Grid Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Go-Flex® Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Jaw Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Quadra-Flex® Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Roller Chain Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Martin-Flex® Couplings</a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
                 </li>
                 <li>
                   <a href="#">Material Handling</a>

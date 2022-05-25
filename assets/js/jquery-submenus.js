@@ -15,7 +15,7 @@ $(document).ready(function() {
 				if (!$('.submenu-'+rel).hasClass('over')) {
 					if ($('#submenu').is(':visible')) {
 						$('#submenu').slideUp('fast', function () {
-							$('.submenu.over').removeClass('over').css('display','none');
+							$('.b3-submenu.over').removeClass('over').css('display','none');
 							$('.submenu-'+rel).addClass('over').css('display','block');
 							$('#submenu').slideDown();
 						});
@@ -27,21 +27,24 @@ $(document).ready(function() {
 			} else {
 				if ($('#submenu').is(':visible')) {
 					$('#submenu').slideUp('fast', function () {
-						$('.submenu.over').removeClass('over').css('display','none');
+						$('.b3-submenu.over').removeClass('over').css('display','none');
 					});
 				}
 			}
 		}
 
 		$(this).removeClass('close').addClass('over');
-  }
+  	}
 
 	function removeMenu() {
 		$(this).removeClass('over').addClass('close');
+		$('#submenu').slideUp('fast', function () {
+			$('#submenu .b3-submenu').removeAttr('style');
+		});
 	}
 
 	//assign hovers
-	$("#menu #the-menu > li").hoverIntent(addMenu, removeMenu);
+	$("#menu .the-menu > li").hoverIntent(addMenu, removeMenu);
 
 	//additional hovers
 	$("#submenu").on('mouseleave',function () {
@@ -108,7 +111,7 @@ function b3_create_submenus() {
   var pad = $('.page-current-title').innerWidth() + 50;
   //console.log(pad);
 
-	$('#menu #the-menu > li').each(function(index, element) {
+	$('#menu .the-menu > li').each(function(index, element) {
     var ul = $(element).find('> ul');
 		if (ul.length) {
 			$('#submenu section').append('<div class="b3-submenu submenu-'+count+'"></div>');
