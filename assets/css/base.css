@@ -741,6 +741,38 @@ li {
     }
 }
 
+/* Basic responsive layout
+   ========================================================================== */
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.video-container.ar16-9 {
+    padding-top: 56.25%;
+}
+
+.video-container.ar4-3 {
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+}
+
+.video-container.ar16-9 {
+    padding-top: 66.666666%; /* 3:2 Aspect Ratio */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 /*
 DO NOT CHANGE THIS FILE
 to override any of the settings in this section, add your styling code in the custom directory.
