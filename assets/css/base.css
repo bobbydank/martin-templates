@@ -70,6 +70,15 @@ p {
     margin-bottom: 1.1rem;
 }
 
+main ul {
+    margin-left:15px;
+}
+
+main ul li {
+    list-style-type: disc;
+    padding-left:15px;
+}
+
 /* Grouping content
    ========================================================================== */
 /**

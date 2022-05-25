@@ -55,7 +55,7 @@
 .list-dropper .downloads-list {border:none;}
 .downloads-list a:hover {text-decoration: none;}
 .downloads-list li,
-.list-dropper span {padding:5px 20px; background:white;}
+.list-dropper span {padding:5px 20px; background:white; list-style:none;}
 .downloads-list li:nth-child(odd) {background:#fef0d9;}
 .downloads-list p,
 .list-dropper span p {margin:5px 0;}
@@ -101,7 +101,7 @@
 }
 
 .inline-list {}
-.inline-list li {display:inline-block; list-style:none; line-height:1; position:relative;}
+.inline-list li {display:inline-block; list-style:none; line-height:1; position:relative; padding-left:0;}
 .inline-list.line-seperator li {border-right:solid 1px #333; margin-left:-4px;}
 .inline-list.line-seperator li:last-child {border-right:none;}
 .inline-list.carrot-seperator li {padding-right:15px;}
@@ -580,6 +580,11 @@ header a {font-family: var(--secondary-font-family);}
 
 .filter-drop.active ul {
   display:block;
+}
+
+.filter-drop ul li {
+  padding-left:0;
+  list-style: none;
 }
 
 /* Keyword Search Form

@@ -20,7 +20,7 @@
                 <a class="text-white hover:text-secondary" href="#">My Account</a>
               </li>
               <li>
-                <a class="text-white hover:text-secondary" href="#">Careers</a>
+                <a class="text-white hover:text-secondary" href="/careers.php">Careers</a>
               </li>
               <li>
                 <a class="text-secondary hover:text-white" href="#">Request a quote</a>
@@ -28,7 +28,10 @@
             </ul>
           </li>
           <li>
-            <i title="Search Bar Open" class="search-icon fa-solid fa-magnifying-glass"></i>
+            <i title="Search Bar Open" class="ml-2 search-icon fa-solid fa-magnifying-glass"></i>
+          </li>
+          <li>
+            <i title="Shopping Cart" class="ml-3 fa-solid fa-cart-shopping text-white"></i>
           </li>
         </ul>
       </section>
@@ -58,7 +61,7 @@
                     </li>
                     <li>
                       <ul>
-                        <li><a href="locations.php">Locations</a></li>
+                        <li><a href="/locations.php">Locations</a></li>
                         <li><a href="#">United States</a></li>
                         <li><a href="#">Canada</a></li>
                         <li><a href="#">Mexico</a></li>
@@ -76,7 +79,7 @@
                     </li>
                     <li>
                       <ul>
-                        <li><a href="#">Careers</a></li>
+                        <li><a href="/careers.php">Careers</a></li>
                         <li><a href="#">Current Openings</a></li>
                       </ul>
                     </li>
@@ -120,7 +123,7 @@
                   <a href="#">My Account</a>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
+                  <a href="/careers.php">Careers</a>
                 </li>
                 <li>
                   <a href="#">Request a quote</a>
