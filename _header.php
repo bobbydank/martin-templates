@@ -234,7 +234,7 @@
                   <a href="#">Hand Tools</a>
                 </li>
                 <li>
-                  <a href="#">Custom Products</a>
+                  <a href="/custom-products.php">Custom Products</a>
                 </li>
               </ul>
               <ul class="md:inline-list md:hidden block line-seperator uppercase my-8">
