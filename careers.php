@@ -9,7 +9,7 @@
   <!-- Page Hero -->
   <div class="page-hero" style="background-image:url('/assets/imgs/heroes/company.jpg');">
     <section class="py-12 md:py-20 clearfix max-w-screen-2xl mx-auto w-11/12 secondary-font">
-      <h1 class="text-white text-right md:text-5xl my-0">Company</h1>
+      <h1 class="text-white text-right md:text-5xl my-0">Careers</h1>
     </section>
   </div>
   <!-- End Page Hero -->
