@@ -39,8 +39,10 @@
       </div>
     </section>
 
-    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 mb-32">
-      <iframe src="https://player.vimeo.com/video/191553905?h=87a8a54dc0&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 mb-32 b3-dark-shadow">
+      <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/191553905?h=87a8a54dc0&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </section>
 
     
