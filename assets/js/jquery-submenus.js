@@ -10,6 +10,7 @@ $(document).ready(function() {
 		if ($(window).width() > 767) {
 			var $this = $(this);
 			var rel = parseInt($this.attr('data-submenu'));
+			$('.b3-submenu').removeClass('over').css('display','none');
 
 			if ( rel > -1 ) {
 				if (!$('.submenu-'+rel).hasClass('over')) {
@@ -29,6 +30,8 @@ $(document).ready(function() {
 					$('#submenu').slideUp('fast', function () {
 						$('.b3-submenu.over').removeClass('over').css('display','none');
 					});
+				} else {
+					
 				}
 			}
 		}
@@ -38,9 +41,7 @@ $(document).ready(function() {
 
 	function removeMenu() {
 		$(this).removeClass('over').addClass('close');
-		$('#submenu').slideUp('fast', function () {
-			$('#submenu .b3-submenu').removeAttr('style');
-		});
+		//$('#submenu .b3-submenu').removeAttr('style');
 	}
 
 	//assign hovers

@@ -272,7 +272,6 @@ header a {font-family: var(--secondary-font-family);}
 .b3-submenu {width:100%; margin:0; display:none;}
 .b3-submenu.keep-alive {display:block;}
 .b3-submenu section {padding:20px 50px; overflow:hidden;}
-.b3-submenu section .inner {}
 .b3-submenu .submenu {display:none;}
 .b3-submenu .submenu.keep-alive {display:block;}
 .b3-submenu ul {text-align:right; display:block;}
@@ -280,11 +279,8 @@ header a {font-family: var(--secondary-font-family);}
 .b3-submenu > ul > li {display:inline-block; margin:5px 0 5px 60px;}
 .b3-submenu li.end-of-row {border-right:none;}
 .b3-submenu li:last-child:after {display:none;}
-.b3-submenu li a {text-decoration: none; text-transform:uppercase; color:white; font-weight:bold;}
-.b3-submenu li a:hover,
-.b3-submenu li.active a {}
-.b3-submenu.red li a:hover,
-.b3-submenu.red li.active a {}
+.b3-submenu li a {text-decoration: none; text-transform:uppercase; color:white;}
+.b3-submenu > ul > li > a {font-weight:bold;}
 
 .submenu-select {display:none; width:92% !important; max-width:600px; margin:0 auto;}
 

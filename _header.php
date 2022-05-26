@@ -55,35 +55,53 @@
               <ul class="the-menu md:inline-list line-seperator uppercase">
                 <li>
                   <a href="/company.php">Company</a>
-                  <ul>
+                  <ul class="subs">
                     <li>
-                      <a href="/company.php">Company</a>
+                        <a href="/company.php">Company</a>
                     </li>
                     <li>
-                      <ul>
-                        <li><a href="/locations.php">Locations</a></li>
-                        <li><a href="#">United States</a></li>
-                        <li><a href="#">Canada</a></li>
-                        <li><a href="#">Mexico</a></li>
-                        <li><a href="#">Brazil</a></li>
-                        <li><a href="#">China</a></li>
-                        <li><a href="#">United Kingdom</a></li>
-                      </ul>
+                        <a href="/locations.php">Locations</a>
+                        <ul>
+                            <li>
+                                <a href="/locations.php">United States</a>
+                            </li>
+                            <li>
+                                <a href="/locations.php">Canada</a>
+                            </li>
+                            <li>
+                                <a href="/locations.php">Mexico</a>
+                            </li>
+                            <li>
+                                <a href="/locations.php">Brazil</a>
+                            </li>
+                            <li>
+                                <a href="/locations.php">China</a>
+                            </li>
+                            <li>
+                                <a href="/locations.php">United Kingdom</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                      <ul>
-                        <li><a href="/contact.php">Contact</a></li>
-                        <li><a href="#">General Info Request</a></li>
-                        <li><a href="#">Request a Quote</a></li>
-                      </ul>
+                        <a href="/contact.php">Contact</a>
+                        <ul>
+                            <li>
+                                <a href="#">General Info Request</a>
+                            </li>
+                            <li>
+                                <a href="#">Request a Quote</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                      <ul>
-                        <li><a href="/careers.php">Careers</a></li>
-                        <li><a href="#">Current Openings</a></li>
-                      </ul>
+                        <a href="/careers.php">Careers</a>
+                        <ul>
+                            <li>
+                                <a href="https://recruiting2.ultipro.com/MAR1022/JobBoard/7db9926f-7564-3521-4a93-13c1764fdae3" target="_blank">Current Openings</a>
+                            </li>
+                        </ul>
                     </li>
-                  </ul>
+                </ul>
                 </li>
                 <li>
                   <a href="#">Resources</a>
@@ -98,7 +116,7 @@
                   <a href="/contact.php">Contact</a>
                 </li>
               </ul>
-              <ul class="the-menu md:inline-list line-seperator uppercase border-top inline-block">
+              <ul class="the-menu md:inline-list line-seperator uppercase border-top">
                 <li>
                   <a href="/power-transmission.php">Power Transmission</a>
                   <ul class="subs">
