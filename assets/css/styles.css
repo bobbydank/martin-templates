@@ -49,13 +49,13 @@
 /* Block
    ========================================================================== */
 
-.list-dropper {display:block; background:white; border:solid thin #333; max-width:1024px; margin:0 auto 30px; cursor:pointer; font-weight:500;}
+.list-dropper {display:block; background:white; border:solid thin #333; max-width:1024px; margin:0 auto 30px; cursor:pointer;}
 .downloads-list {margin:0 auto; max-width:1024px; font-size:120%; border:solid thin #333;}
 .list-dropper .downloads-list {display:none;}
 .list-dropper .downloads-list {border:none;}
 .downloads-list a:hover {text-decoration: none;}
 .downloads-list li,
-.list-dropper span {padding:5px 20px; background:white; list-style:none;}
+.list-dropper span {padding:5px 20px; background:white; list-style:none; font-weight:500;}
 .downloads-list li:nth-child(odd) {background:#fef0d9;}
 .downloads-list p,
 .list-dropper span p {margin:5px 0;}
