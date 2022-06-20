@@ -100,10 +100,12 @@
   .downloads-list p {text-align:center;}
 }
 
-.inline-list {}
+main .inline-list {margin-left:0;}
 .inline-list li {display:inline-block; list-style:none; line-height:1; position:relative; padding-left:0;}
+.inline-list.pad-more li {padding-left:15px; padding-right:15px;}
 .inline-list.line-seperator li {border-right:solid 1px #333; margin-left:-4px;}
-.inline-list.line-seperator li:last-child {border-right:none;}
+.inline-list.line-seperator li:last-child,
+.inline-list.line-seperator.monitor-last-item li.last-item {border-right:none;}
 .inline-list.carrot-seperator li {padding-right:15px;}
 .inline-list.carrot-seperator li:last-child {padding-right:0;}
 .inline-list.carrot-seperator li:after {content:"\00BB"; position:absolute; top:50%; right:0; transform:translateY(-50%);}
@@ -112,8 +114,11 @@
 .inline-list.line-seperator.white-lines li {border-color:white;}
 .inline-list.border-top {border-top:solid thin #333; margin-top:10px; padding-top:10px; padding-left:30px;}
 .inline-list li a {display:block; line-height:1.5; padding:3px 8px; border-bottom:solid thin rgba(255,255,255,0); transition:all 0.5s;}
+.inline-list.no-leading li {margin-bottom:10px;}
+.inline-list.no-leading li a {line-height:1;}
+.inline-list.no-pad-a li a {padding:3px 0;}
 .inline-list li a:hover,
-.inline-list li a.active {text-decoration:none; border-color:#333;}
+.inline-list li a.active {text-decoration:none; border-color:var(--primary-color); color:var(--primary-color);}
 
 @media (min-width: 768px) {
   .md\:inline-list {}
@@ -164,6 +169,13 @@ a.no-td:hover {text-decoration:none;}
 .border-round {border-radius:50%; overflow:hidden;}
 
 input[type="number"].qty-field {width:70px; background:white; margin-bottom:0; border:solid thin #333; padding-top:2px; padding-bottom:2px;}
+
+.mh-235 {min-height:235px;}
+
+/* Arrow Link
+   ========================================================================== */
+
+a.arrow-link {padding-right:20px; display:block; background:url('../imgs/blue-arrow.svg') center right no-repeat; background-size:auto 50%;}
 
 /* B3 Button
    ========================================================================== */
@@ -457,6 +469,7 @@ header a {font-family: var(--secondary-font-family);}
 
 .submit-button {color:transparent; height:75px; width:150px; display:inline-block; background:url('/assets/imgs/submit-btn.svg') center right no-repeat; background-size:contain; border:none;}
 .submit-button:hover {background-color:transparent; color:transparent;}
+.submit-button.smaller {width:100px; height:50px;}
 
 /* Pretty checkbox
    ========================================================================== */
