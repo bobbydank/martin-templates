@@ -104,10 +104,10 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Resources</a>
+                  <a href="/resources.php">Resources</a>
                   <ul class="subs">
                     <li>
-                        <a href="#">Customer Login</a>
+                        <a href="/resources.php">Customer Login</a>
                         <ul>
                           <li>
                             <a href="#">Order Status</a>
