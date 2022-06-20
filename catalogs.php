@@ -41,13 +41,13 @@
       <h2 class="text-primary text-center mb-16">Catalogs</h2>
       <ul class="inline-list text-center no-pad-a line-seperator pad-more no-leading monitor-last-item">
         <li><a href="/catalogs/power-transmission.php">Power Transmission</a></li>
-        <li><a href="#">Material Handling</a></li>
-        <li><a href="#">Idlers</a></li>
-        <li><a href="#">Heavy-Duty Conveyor Pulleys</a></li>
-        <li><a href="#">Custom Products</a></li>
-        <li><a href="#">Engineering</a></li>
-        <li><a href="#">Industrial Hand Tools</a></li>
-        <li><a href="#">Plastics</a></li>
+        <li><a href="/catalogs/material-handling.php">Material Handling</a></li>
+        <li><a href="/catalogs/idlers.php">Idlers</a></li>
+        <li><a href="/catalogs/heavy-duty.php">Heavy-Duty Conveyor Pulleys</a></li>
+        <li><a href="/catalogs/custom-products.php">Custom Products</a></li>
+        <li><a href="/catalogs/engineering.php">Engineering</a></li>
+        <li><a href="/catalogs/industrial.php">Industrial Hand Tools</a></li>
+        <li><a href="/catalogs/plastics.php">Plastics</a></li>
       </ul>
     </section>
   </main>
