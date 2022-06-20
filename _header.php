@@ -62,49 +62,124 @@
                     <li>
                         <a href="/locations.php">Locations</a>
                         <ul>
-                            <li>
-                                <a href="/locations.php">United States</a>
-                            </li>
-                            <li>
-                                <a href="/locations.php">Canada</a>
-                            </li>
-                            <li>
-                                <a href="/locations.php">Mexico</a>
-                            </li>
-                            <li>
-                                <a href="/locations.php">Brazil</a>
-                            </li>
-                            <li>
-                                <a href="/locations.php">China</a>
-                            </li>
-                            <li>
-                                <a href="/locations.php">United Kingdom</a>
-                            </li>
+                          <li>
+                            <a href="/locations.php">United States</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">Canada</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">Mexico</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">Brazil</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">China</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">United Kingdom</a>
+                          </li>
                         </ul>
                     </li>
                     <li>
                         <a href="/contact.php">Contact</a>
                         <ul>
-                            <li>
-                                <a href="#">General Info Request</a>
-                            </li>
-                            <li>
-                                <a href="#">Request a Quote</a>
-                            </li>
+                          <li>
+                            <a href="#">General Info Request</a>
+                          </li>
+                          <li>
+                            <a href="#">Request a Quote</a>
+                          </li>
                         </ul>
                     </li>
                     <li>
                         <a href="/careers.php">Careers</a>
                         <ul>
-                            <li>
-                                <a href="https://recruiting2.ultipro.com/MAR1022/JobBoard/7db9926f-7564-3521-4a93-13c1764fdae3" target="_blank">Current Openings</a>
-                            </li>
+                          <li>
+                            <a href="https://recruiting2.ultipro.com/MAR1022/JobBoard/7db9926f-7564-3521-4a93-13c1764fdae3" target="_blank">Current Openings</a>
+                          </li>
                         </ul>
                     </li>
-                </ul>
+                  </ul>
                 </li>
                 <li>
                   <a href="#">Resources</a>
+                  <ul class="subs">
+                    <li>
+                        <a href="#">Customer Login</a>
+                        <ul>
+                          <li>
+                            <a href="#">Order Status</a>
+                          </li>
+                          <li>
+                            <a href="#">Check Stock</a>
+                          </li>
+                          <li>
+                            <a href="#">Account Maintenance</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li>
+                      <a href="#">Part Number Interchange</a>
+                      <ul>
+                        <li>
+                          <a href="#">Idler Sprocket Interchange</a>
+                        </li>
+                        <li>
+                          <a href="#">Sheave Interchange</a>
+                        </li>
+                        <li>
+                          <a href="#">Gear Interchange</a>
+                        </li>
+                        <li>
+                          <a href="#">Conveyor Pulley Interchange</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Safety Installation</a>
+                      <ul>
+                        <li>
+                          <a href="#">Power Transmission</a>
+                        </li>
+                        <li>
+                          <a href="#">Material Handling</a>
+                        </li>
+                        <li>
+                          <a href="#">Industrial Hand Tools</a>
+                        </li>
+                        <li>
+                          <a href="#">Maintenance Guides</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Literature  Media</a>
+                      <ul>
+                        <li>
+                          <a href="#">Nomenclature</a>
+                        </li>
+                        <li>
+                          <a href="#">Press Releases</a>
+                        </li>
+                        <li>
+                          <a href="#">Videos</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Online Training</a>
+                      <ul>
+                        <li>
+                          <a href="#">New User Registration</a>
+                        </li>
+                        <li>
+                          <a href="https://dssp.martin-university.com/users/sign_in" target="_blank">Existing User Login</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a href="#">Training</a>
