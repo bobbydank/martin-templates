@@ -3,7 +3,7 @@
   <section class="py-14 clearfix max-w-screen-2xl mx-auto w-11/12 md:flex items-start secondary-font">
     <div class="w-full text-center md:text-left md:w-2/5">
       <a class="block clearfix" href="/">
-        <img src="assets/imgs/martin-logo.svg" class="w-full footer-logo mx-auto block md:float-left mb-8" alt="Martin Sprocket & Gear, Inc" />
+        <img src="/assets/imgs/martin-logo.svg" class="w-full footer-logo mx-auto block md:float-left mb-8" alt="Martin Sprocket & Gear, Inc" />
       </a>
       <p class="mb-20">
         3100 Sprocket Drive<br />

@@ -9,10 +9,10 @@
             <a class="text-white" href="tel:+18172583000">817.258.3000</a>
           </li>
           <li class="header-flag">
-            <img src="assets/imgs/american-flag.png" class="w-full" alt="American Flag" />
+            <img src="/assets/imgs/american-flag.png" class="w-full" alt="American Flag" />
           </li>
           <li class="header-flag">
-            <img src="assets/imgs/mexican-flag.png" class="w-full" alt="Mexican Flag" />
+            <img src="/assets/imgs/mexican-flag.png" class="w-full" alt="Mexican Flag" />
           </li>
           <li class="ml-3">
             <ul class="inline-list hidden md:block line-seperator white-lines">
@@ -40,7 +40,7 @@
       <section class="clearfix flex max-w-screen-2xl mx-auto items-center w-11/12">
         <div class="md:w-1/4 w-11/12 max-w-sm">
           <a href="/" class="block w-full logo">
-            <img src="assets/imgs/martin-logo.svg" class="w-full" alt="Martin Sprocket & Gear, Inc" />
+            <img src="/assets/imgs/martin-logo.svg" class="w-full" alt="Martin Sprocket & Gear, Inc" />
           </a>
         </div>
         <div class="md:w-3/4 w-11/12 md:text-right">
