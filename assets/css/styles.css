@@ -88,6 +88,9 @@
 .list-dropper.up span::before {content:"\f062";}
 .downloads-list p:nth-child(2),
 .list-dropper span p:nth-child(2) {text-transform:uppercase;}
+
+.downloads-list li a {font-weight:600;}
+
 @media (min-width: 768px) {
   .downloads-list li a,
   .list-dropper span {display:flex; align-items:center}
@@ -96,6 +99,7 @@
   .downloads-list p:nth-child(2),
   .list-dropper span p:nth-child(2) {text-align:right;}
 }
+
 @media (max-width: 768px) {
   .downloads-list p {text-align:center;}
 }
