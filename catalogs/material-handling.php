@@ -32,7 +32,7 @@
           <a href="/catalogs.php">Catalogs</a>
         </li>
         <li>
-          <a href="/catalogs.php">Power Transmission</a>
+          <a href="/catalogs/material-handling.php">Material Handling</a>
         </li>
       </ul>
     </section>
@@ -52,7 +52,8 @@
     </section>
 
     <section class="clearfix max-w-screen-2xl mx-auto" data-aos="fade-in">
-      <div class="mb-5">
+      <div class="list-dropper mb-5">
+        <span>Material Handling Catalog</span>
         <ul class="downloads-list">
           <li>
             <a href="https://www.martinsprocket.com/docs//catalogs/power%20transmission/_power%20transmission%20catalog/the-big-catalog-(full).pdf">
@@ -60,20 +61,81 @@
               <p>Download PDF</p>
             </a>
           </li>
-        </ul> 
-      </div>
-      <div class="list-dropper mb-5">
-        <span></span>
-        <ul class="downloads-list">
           <li>
-            <a href="">
-              <p></p>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/1_material%20handling%20catalog/material%20handling%20catalog.pdf">
+              <p>Material Handling Catalog</p>
               <p>Download PDF</p>
             </a>
           </li>
         </ul>
       </div>
-      
+      <div class="list-dropper mb-5">
+        <span>Screw Conveyor</span>
+        <ul class="downloads-list">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/2_screw%20conveyor/hangers.pdf">
+              <p>Hangers</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/2_screw%20conveyor/screw-conveyors.pdf">
+              <p>Screw Conveyors</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="mb-5">
+        <ul class="downloads-list">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/3_shaftless%20screw%20conveyor/shaftless-screw-conveyors.pdf">
+              <p>Shaftless Screw Conveyor</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul> 
+      </div>
+      <div class="mb-5">
+        <ul class="downloads-list">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/4_bucket%20elevator/bucket-elevator-catalog.pdf">
+              <p>Bucket Elevator</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul> 
+      </div>
+      <div class="mb-5">
+        <ul class="downloads-list">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/5_vertical%20screw%20elevator/vertical-screw-elevators.pdf">
+              <p>Vertical Screw Elevator</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul> 
+      </div>
+      <div class="mb-5">
+        <ul class="downloads-list">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/6_drag%20conveyor/drag-conveyors.pdf">
+              <p>Drag Conveyor</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul> 
+      </div>
+      <div class="mb-5">
+        <ul class="downloads-list">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/material%20handling/7_modular%20plastic%20conveyor%20screw/modular-plastic-conveyor-screws.pdf">
+              <p>Modular Plastic Conveyor Screw</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul> 
+      </div>
     </section>
   </main>
   <!-- End Main -->

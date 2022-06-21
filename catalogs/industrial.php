@@ -32,7 +32,7 @@
           <a href="/catalogs.php">Catalogs</a>
         </li>
         <li>
-          <a href="/catalogs.php">Power Transmission</a>
+          <a href="/catalogs/industrial.php">Industrial Hand Tools</a>
         </li>
       </ul>
     </section>
@@ -44,30 +44,32 @@
         <li><a href="/catalogs/material-handling.php">Material Handling</a></li>
         <li><a href="/catalogs/idlers.php">Idlers</a></li>
         <li><a href="/catalogs/heavy-duty.php">Heavy-Duty Conveyor Pulleys</a></li>
-        <li><a href="/catalogs/custom-products.php" class="active">Custom Products</a></li>
+        <li><a href="/catalogs/custom-products.php">Custom Products</a></li>
         <li><a href="/catalogs/engineering.php">Engineering</a></li>
-        <li><a href="/catalogs/industrial.php">Industrial Hand Tools</a></li>
+        <li><a href="/catalogs/industrial.php" class="active">Industrial Hand Tools</a></li>
         <li><a href="/catalogs/plastics.php">Plastics</a></li>
       </ul>
     </section>
 
     <section class="clearfix max-w-screen-2xl mx-auto" data-aos="fade-in">
-      <div class="mb-5">
-        <ul class="downloads-list">
+      <div class="list-dropper mb-5 up">
+        <span>Industrial Hand Tool Catalog</span>
+        <ul class="downloads-list" style="display:block;">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/industrial%20hand%20tools/industrial%20hand%20tool%20catalog/body-fender-repair-tools-catalog.pdf">
+              <p>Body & Fender Repair Tools Catalog</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
           <li>
             <a href="https://www.martinsprocket.com/docs//catalogs/power%20transmission/_power%20transmission%20catalog/the-big-catalog-(full).pdf">
               <p>The Big Catalog (Full)</p>
               <p>Download PDF</p>
             </a>
           </li>
-        </ul> 
-      </div>
-      <div class="list-dropper mb-5">
-        <span></span>
-        <ul class="downloads-list">
           <li>
-            <a href="">
-              <p></p>
+            <a href="https://www.martinsprocket.com/docs//catalogs/industrial%20hand%20tools/industrial%20hand%20tool%20catalog/industrial-hand-tools-catalog.pdf">
+              <p>Industrial Hand Tools Catalog</p>
               <p>Download PDF</p>
             </a>
           </li>

@@ -32,7 +32,7 @@
           <a href="/catalogs.php">Catalogs</a>
         </li>
         <li>
-          <a href="/catalogs.php">Power Transmission</a>
+          <a href="/catalogs/engineering.php">Engineering</a>
         </li>
       </ul>
     </section>
@@ -44,30 +44,56 @@
         <li><a href="/catalogs/material-handling.php">Material Handling</a></li>
         <li><a href="/catalogs/idlers.php">Idlers</a></li>
         <li><a href="/catalogs/heavy-duty.php">Heavy-Duty Conveyor Pulleys</a></li>
-        <li><a href="/catalogs/custom-products.php" class="active">Custom Products</a></li>
-        <li><a href="/catalogs/engineering.php">Engineering</a></li>
+        <li><a href="/catalogs/custom-products.php">Custom Products</a></li>
+        <li><a href="/catalogs/engineering.php" class="active">Engineering</a></li>
         <li><a href="/catalogs/industrial.php">Industrial Hand Tools</a></li>
         <li><a href="/catalogs/plastics.php">Plastics</a></li>
       </ul>
     </section>
 
     <section class="clearfix max-w-screen-2xl mx-auto" data-aos="fade-in">
-      <div class="mb-5">
-        <ul class="downloads-list">
+      <div class="list-dropper mb-5 up">
+        <span>Engineering Catalogs</span>
+        <ul class="downloads-list" style="display:block;">
           <li>
             <a href="https://www.martinsprocket.com/docs//catalogs/power%20transmission/_power%20transmission%20catalog/the-big-catalog-(full).pdf">
               <p>The Big Catalog (Full)</p>
               <p>Download PDF</p>
             </a>
           </li>
-        </ul> 
-      </div>
-      <div class="list-dropper mb-5">
-        <span></span>
-        <ul class="downloads-list">
           <li>
-            <a href="">
-              <p></p>
+            <a href="https://www.martinsprocket.com/docs//catalogs/engineering/engineering%20catalog/gear-engineering-data.pdf">
+              <p>Gear Engineering Data</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/engineering/engineering%20catalog/general-engineering-information.pdf">
+              <p>General Engineering Information</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/engineering/engineering%20catalog/groove-dimensions-and-tolerances.pdf">
+              <p>Groove Dimensions and Tolerances</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/engineering/engineering%20catalog/sprocket-engineering-data.pdf">
+              <p>Sprocket Engineering Data</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/engineering/engineering%20catalog/sprocket-engineering-data---horsepower-ratingsfeccaacbf915ce050f6bf757.pdf">
+              <p>Sprocket Engineering Data - Horsepower Ratings</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/engineering/engineering%20catalog/stock-drive-selection.pdf">
+              <p>Stock Drive Selection</p>
               <p>Download PDF</p>
             </a>
           </li>

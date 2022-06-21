@@ -32,7 +32,7 @@
           <a href="/catalogs.php">Catalogs</a>
         </li>
         <li>
-          <a href="/catalogs.php">Power Transmission</a>
+          <a href="/catalogs/power-transmission.php">Power Transmission</a>
         </li>
       </ul>
     </section>

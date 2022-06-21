@@ -32,7 +32,7 @@
           <a href="/catalogs.php">Catalogs</a>
         </li>
         <li>
-          <a href="/catalogs.php">Power Transmission</a>
+          <a href="/catalogs/custom-products.php">Custom Products</a>
         </li>
       </ul>
     </section>
@@ -52,28 +52,29 @@
     </section>
 
     <section class="clearfix max-w-screen-2xl mx-auto" data-aos="fade-in">
-      <div class="mb-5">
-        <ul class="downloads-list">
+      <div class="list-dropper mb-5 up">
+        <span>Custom Products Catalog</span>
+        <ul class="downloads-list" style="display:block;">
+          <li>
+            <a href="https://www.martinsprocket.com/docs//catalogs/custom%20products/custom%20products%20catalog/custom-capabilities.pdf">
+              <p>Custom Capabilities</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
           <li>
             <a href="https://www.martinsprocket.com/docs//catalogs/power%20transmission/_power%20transmission%20catalog/the-big-catalog-(full).pdf">
               <p>The Big Catalog (Full)</p>
               <p>Download PDF</p>
             </a>
           </li>
-        </ul> 
-      </div>
-      <div class="list-dropper mb-5">
-        <span></span>
-        <ul class="downloads-list">
           <li>
-            <a href="">
-              <p></p>
+            <a href="https://www.martinsprocket.com/docs//catalogs/custom%20products/custom%20products%20catalog/plastics.pdf">
+              <p>Plastics</p>
               <p>Download PDF</p>
             </a>
           </li>
         </ul>
       </div>
-      
     </section>
   </main>
   <!-- End Main -->

@@ -32,7 +32,7 @@
           <a href="/catalogs.php">Catalogs</a>
         </li>
         <li>
-          <a href="/catalogs.php">Power Transmission</a>
+          <a href="/catalogs/heavy-duty.php">Heavy-Duty Conveyor Pulleys</a>
         </li>
       </ul>
     </section>
@@ -55,25 +55,13 @@
       <div class="mb-5">
         <ul class="downloads-list">
           <li>
-            <a href="https://www.martinsprocket.com/docs//catalogs/power%20transmission/_power%20transmission%20catalog/the-big-catalog-(full).pdf">
-              <p>The Big Catalog (Full)</p>
+            <a href="https://www.martinsprocket.com/docs//catalogs/heavy%20duty%20conveyor%20pulleys/conveyor%20pulley%20catalog/heavy-duty-conveyor-pulley-catalog.pdf">
+              <p>Conveyor Pulley Catalog</p>
               <p>Download PDF</p>
             </a>
           </li>
         </ul> 
       </div>
-      <div class="list-dropper mb-5">
-        <span></span>
-        <ul class="downloads-list">
-          <li>
-            <a href="">
-              <p></p>
-              <p>Download PDF</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-      
     </section>
   </main>
   <!-- End Main -->
