@@ -114,6 +114,9 @@
               Phone 817-258-3000<br />
               Fax 817-258-3333
             </p>
+            <p>
+              <a href="https://maps.google.com/?q=33.624060,-95.053010" target="_blank">Get Directions</a>
+            </p>
           </div>
         </div>
         <div class="marker location usa" data-lat="39.793780" data-lng="-104.862910" data-color="green">
@@ -125,6 +128,169 @@
               Denver, CO 80239<br />
               Phone 303-371-8466<br />
               Fax 303-371-7116
+            </p>
+            <p>
+              <a href="https://maps.google.com/?q=39.793780,-104.862910" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="39.793780" data-lng="-104.862910" data-color="green">
+          <div class="inset">
+            <h4>Los Angeles, California</h4>
+            <p>
+              <a href="https://maps.google.com/?q=33.977881,-118.135790" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>	
+        <div class="marker location usa" data-lat="38.598443" data-lng="-121.481978" data-color="green">
+          <div class="inset">
+            <h4>Sacramento, California</h4>
+            <p>
+              <a href="https://maps.google.com/?q=38.598443,-121.481978" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="27.972679" data-lng="-82.348419" data-color="green">
+          <div class="inset">
+            <h4>Tampa, Florida</h4>
+            <p>
+              <a href="https://maps.google.com/?q=27.972679,-82.348419" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="34.000000" data-lng="-84.000000" data-color="green">
+          <div class="inset">
+            <h4>Atlanta, Georgia</h4>
+            <p>
+              <a href="https://maps.google.com/?q=34.000000,-84.000000" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="42.014506" data-lng="-87.886371" data-color="green">
+          <div class="inset">
+            <h4>Chicago, Illinois</h4>
+            <p>
+              <a href="https://maps.google.com/?q=42.014506,-87.886371" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="42.014506" data-lng="-87.886371" data-color="green">
+          <div class="inset">
+            <h4>Chicago, Illinois</h4>
+            <p>
+              <a href="https://maps.google.com/?q=42.014506,-87.886371" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="44.810953" data-lng="-93.367760" data-color="green">
+          <div class="inset">
+            <h4>Minneapolis, Minnesota</h4>
+            <p>
+              <a href="https://maps.google.com/?q=44.810953,-93.367760" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="39.134545" data-lng="-94.509265" data-color="green">
+          <div class="inset">
+            <h4>Kansas City, Missouri</h4>
+            <p>
+              <a href="https://maps.google.com/?q=39.134545,-94.509265" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="41.584753" data-lng="-84.573207" data-color="green">
+          <div class="inset">
+            <h4>Montpelier, Ohio</h4>
+            <p>
+              <a href="https://maps.google.com/?q=41.584753,-84.573207" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="45.540810" data-lng="-122.713340" data-color="green">
+          <div class="inset">
+            <h4>Portland, Oregon</h4>
+            <p>
+              <a href="https://maps.google.com/?q=45.540810,-122.713340" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="40.792247" data-lng="-75.487463" data-color="green">
+          <div class="inset">
+            <h4>Danielsville, Pennsylvania</h4>
+            <p>
+              <a href="https://maps.google.com/?q=40.792247,-75.487463" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="40.757651" data-lng="-80.122836" data-color="green">
+          <div class="inset">
+            <h4>Pittsburgh, Pennsylvania</h4>
+            <p>
+              <a href="https://maps.google.com/?q=40.757651,-80.122836" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="36.148086" data-lng="-86.711553" data-color="green">
+          <div class="inset">
+            <h4>Nashville, Tennessee</h4>
+            <p>
+              <a href="https://maps.google.com/?q=36.148086,-86.711553" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="29.876009" data-lng="-95.546612" data-color="green">
+          <div class="inset">
+            <h4>Houston, Texas</h4>
+            <p>
+              <a href="https://maps.google.com/?q=29.876009,-95.546612" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="36.044072" data-lng="-90.484010" data-color="green">
+          <div class="inset">
+            <h4>Paragould, Arkansas</h4>
+            <p>
+              <a href="https://maps.google.com/?q=36.044072,-90.484010" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="35.399029" data-lng="-80.205138" data-color="green">
+          <div class="inset">
+            <h4>Albemarle, North Carolina</h4>
+            <p>
+              <a href="https://maps.google.com/?q=35.399029,-80.205138" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="32.431590" data-lng="-99.657741" data-color="green">
+          <div class="inset">
+            <h4>Abilene, Texas</h4>
+            <p>
+              <a href="https://maps.google.com/?q=32.431590,-99.657741" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="32.776586" data-lng="-96.771559" data-color="green">
+          <div class="inset">
+            <h4>Dallas Foundry, Texas</h4>
+            <p>
+              <a href="https://maps.google.com/?q=32.776586,-96.771559" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="33.000000" data-lng="-97.000000" data-color="green">
+          <div class="inset">
+            <h4>Fort Worth, Texas</h4>
+            <p>
+              <a href="https://maps.google.com/?q=33.000000,-97.000000" target="_blank">Get Directions</a>
+            </p>
+          </div>
+        </div>
+        <div class="marker location usa" data-lat="32.551900" data-lng="-97.144946" data-color="green">
+          <div class="inset">
+            <h4>Mansfield, Texas</h4>
+            <p>
+              <a href="https://maps.google.com/?q=32.551900,-97.144946" target="_blank">Get Directions</a>
             </p>
           </div>
         </div>
