@@ -37,94 +37,82 @@
 
     <section class="max-w-screen-2xl pb-40 mx-auto w-11/12">
       <div class="flex items-center flex-wrap items-stretch">
-        <div class="w-full md:w-1/3 text-center text-xl relative md:border-r border-b border-solid border-gray-400" data-aos="fade-up">
-          <div class="block md:p-16 p-10 no-td">
-            <img src="/assets/imgs/custom-products/forgings.png" class="w-11/12 mx-auto mb-14" alt="Forgings">
-            <h4 class="text-primary text-center">Forgings</h4>
-            <p class="text-center mb-10 secondary-font">
-              The forging process enables production of parts with high impact strength and structural integrity.
-            </p>
-            <div class="block mb-5">
-              <a href="#" class="b3-button">Request Online Quote</a>
-            </div>
-            <div class="block">
-              <a href="/forgings.php" class="b3-button">Learn More</a>
-            </div>
+        <div class="flex flex-col md:p-16 p-10 no-td w-full md:w-1/2 lg:w-1/3 text-center text-xl relative md:border-r border-b border-solid border-gray-400" data-aos="fade-up">
+          <img src="/assets/imgs/custom-products/forgings.png" class="w-11/12 mx-auto mb-14" alt="Forgings">
+          <h4 class="text-primary text-center">Forgings</h4>
+          <p class="text-center mb-10 secondary-font">
+            The forging process enables production of parts with high impact strength and structural integrity.
+          </p>
+          <div class="block mt-auto mb-5">
+            <a href="#" class="b3-button">Request Online Quote</a>
+          </div>
+          <div class="block ">
+            <a href="/forgings.php" class="b3-button">Learn More</a>
           </div>
         </div>
-        <div class="w-full md:w-1/3 text-center text-xl relative md:border-r border-b border-solid border-gray-400" data-aos="fade-up">
-          <div class="block md:p-16 p-10 no-td">
-            <img src="/assets/imgs/custom-products/injection-molded.png" class="w-11/12 mx-auto mb-14" alt="Injection Molded & Milled Plastic Products">
-            <h4 class="text-primary text-center">Injection Molded & <br class="md:block hidden" />Milled Plastic Products</h4>
-            <p class="text-center mb-10 secondary-font">
-              Martin manufactures plastic parts from a variety of materials and polymers.
-            </p>
-            <div class="block mb-5">
-              <a href="#" class="b3-button">Request Online Quote</a>
-            </div>
-            <div class="block">
-              <a href="#" class="b3-button">Learn More</a>
-            </div>
+        <div class="flex flex-col md:p-16 p-10 no-td w-full md:w-1/2 lg:w-1/3 text-center text-xl relative lg:border-r border-b border-solid border-gray-400" data-aos="fade-up">
+          <img src="/assets/imgs/custom-products/injection-molded.png" class="w-11/12 mx-auto mb-14" alt="Injection Molded & Milled Plastic Products">
+          <h4 class="text-primary text-center">Injection Molded & <br class="md:block hidden" />Milled Plastic Products</h4>
+          <p class="text-center mb-10 secondary-font">
+            Martin manufactures plastic parts from a variety of materials and polymers.
+          </p>
+          <div class="block mb-5 mt-auto">
+            <a href="#" class="b3-button">Request Online Quote</a>
+          </div>
+          <div class="block">
+            <a href="#" class="b3-button">Learn More</a>
           </div>
         </div>
-        <div class="w-full md:w-1/3 text-center text-xl relative border-b border-solid border-gray-400" data-aos="fade-up">
-          <div class="block md:p-16 p-10 no-td">
-            <img src="/assets/imgs/custom-products//water-jet.png" class="w-11/12 mx-auto mb-14" alt="Water Jet Products">
-            <h4 class="text-primary text-center">Water Jet Products</h4>
-            <p class="text-center mb-10 secondary-font">
-              Martin machines plastics and metals with a water jet as another manufacturing process to meet your product needs.
-            </p>
-            <div class="block mb-5">
-              <a href="#" class="b3-button">Request Online Quote</a>
-            </div>
-            <div class="block">
-              <a href="#" class="b3-button">Learn More</a>
-            </div>
+        <div class="flex flex-col md:p-16 p-10 no-td w-full md:w-1/2 lg:w-1/3 text-center text-xl relative border-b lg:border-r-0 md:border-r border-solid border-gray-400" data-aos="fade-up">
+          <img src="/assets/imgs/custom-products//water-jet.png" class="w-11/12 mx-auto mb-14" alt="Water Jet Products">
+          <h4 class="text-primary text-center">Water Jet Products</h4>
+          <p class="text-center mb-10 secondary-font">
+            Martin machines plastics and metals with a water jet as another manufacturing process to meet your product needs.
+          </p>
+          <div class="block mb-5 mt-auto">
+            <a href="#" class="b3-button">Request Online Quote</a>
+          </div>
+          <div class="block">
+            <a href="#" class="b3-button">Learn More</a>
           </div>
         </div>
-        <div class="w-full md:w-1/3 text-center text-xl relative md:border-r md:border-b-0 border-b border-solid border-gray-400" data-aos="fade-up">
-          <div class="block md:p-16 p-10 no-td">
-            <img src="/assets/imgs/custom-products/foundary.png" class="w-11/12 mx-auto mb-14" alt="Foundry">
-            <h4 class="text-primary text-center">Foundry</h4>
-            <p class="text-center mb-10 secondary-font">
-              Martin manufactures plastic parts from a variety of materials and polymers.
-            </p>
-            <div class="block mb-5">
-              <a href="#" class="b3-button">Request Online Quote</a>
-            </div>
-            <div class="block">
-              <a href="#" class="b3-button">Learn More</a>
-            </div>
+        <div class="flex flex-col md:p-16 p-10 no-td w-full md:w-1/2 lg:w-1/3 text-center text-xl relative md:border-r-0 lg:border-r lg:border-b-0 border-b border-solid border-gray-400" data-aos="fade-up">
+          <img src="/assets/imgs/custom-products/foundary.png" class="w-11/12 mx-auto mb-14" alt="Foundry">
+          <h4 class="text-primary text-center">Foundry</h4>
+          <p class="text-center mb-10 secondary-font">
+            Martin manufactures plastic parts from a variety of materials and polymers.
+          </p>
+          <div class="block mb-5 mt-auto">
+            <a href="#" class="b3-button">Request Online Quote</a>
+          </div>
+          <div class="block">
+            <a href="#" class="b3-button">Learn More</a>
           </div>
         </div>
-        <div class="w-full md:w-1/3 text-center text-xl relative md:border-r md:border-b-0 border-b border-solid border-gray-400" data-aos="fade-up">
-          <div class="block md:p-16 p-10 no-td">
-            <img src="/assets/imgs/custom-products/sintered.png" class="w-11/12 mx-auto mb-14" alt="Sintered Metal Products">
-            <h4 class="text-primary text-center">Sintered Metal Products</h4>
-            <p class="text-center mb-10 secondary-font">
-              Using a wide range of alloys, Martin produces custom sintered parts for many industries and applications.
-            </p>
-            <div class="block mb-5">
-              <a href="#" class="b3-button">Request Online Quote</a>
-            </div>
-            <div class="block">
-              <a href="#" class="b3-button">Learn More</a>
-            </div>
+        <div class="flex flex-col md:p-16 p-10 no-td w-full md:w-1/2 lg:w-1/3 text-center text-xl relative md:border-r lg:border-r md:border-b-0 border-b border-solid border-gray-400" data-aos="fade-up">
+          <img src="/assets/imgs/custom-products/sintered.png" class="w-11/12 mx-auto mb-14" alt="Sintered Metal Products">
+          <h4 class="text-primary text-center">Sintered Metal Products</h4>
+          <p class="text-center mb-10 secondary-font">
+            Using a wide range of alloys, Martin produces custom sintered parts for many industries and applications.
+          </p>
+          <div class="block mb-5 mt-auto">
+            <a href="#" class="b3-button">Request Online Quote</a>
+          </div>
+          <div class="block">
+            <a href="#" class="b3-button">Learn More</a>
           </div>
         </div>
-        <div class="w-full md:w-1/3 text-xl relative text-center md:border-b-0 border-b" data-aos="fade-up">
-          <div class="block md:p-16 p-10 no-td">
-            <img src="/assets/imgs/custom-products/laser-cut.png" class="w-11/12 mx-auto mb-14" alt="Laser Cut Products">
-            <h4 class="text-primary text-center">Laser Cut Products</h4>
-            <p class="text-center mb-10 secondary-font">
-              Martin machines products using a laser cutter, which is another manufacturing process used to meet your needs.
-            </p>
-            <div class="block mb-5">
-              <a href="#" class="b3-button">Request Online Quote</a>
-            </div>
-            <div class="block">
-              <a href="#" class="b3-button">Learn More</a>
-            </div>
+        <div class="flex flex-col md:p-16 p-10 no-td w-full md:w-1/2 lg:w-1/3 text-xl relative text-center md:border-b-0 border-b" data-aos="fade-up">
+          <img src="/assets/imgs/custom-products/laser-cut.png" class="w-11/12 mx-auto mb-14" alt="Laser Cut Products">
+          <h4 class="text-primary text-center">Laser Cut Products</h4>
+          <p class="text-center mb-10 secondary-font">
+            Martin machines products using a laser cutter, which is another manufacturing process used to meet your needs.
+          </p>
+          <div class="block mb-5 mt-auto">
+            <a href="#" class="b3-button">Request Online Quote</a>
+          </div>
+          <div class="block">
+            <a href="#" class="b3-button">Learn More</a>
           </div>
         </div>
       </div>
