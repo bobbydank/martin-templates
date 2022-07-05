@@ -185,7 +185,7 @@
                   <a href="#">Training</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="/blog.php">Blog</a>
                 </li>
                 <li>
                   <a href="/contact.php">Contact</a>
