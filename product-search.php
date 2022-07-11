@@ -315,7 +315,7 @@
       <div id="filters" class="w-full md:w-1/4 my-5 float-left md:border-r border-solid border-gray-400 pb-8">
         <div class="px-5 py-8 border-solid border-gray-400 border-b">
           <h4 class="text-primary">Spur Gears</h4>
-          <a class="b3-button black mb-5" style="width:100%; max-width:15rem;" href="#">Request a Quote</a>
+          <a class="b3-button black mb-5 w-100" style="max-width:15rem;" href="#">Request a Quote</a>
           <form role="search" method="" class="search-form" action="" enctype="multipart/form-data">
               <div class="input-group clearfix">
                   <input type="search" placeholder="keyword search" value="" name="search"/>
