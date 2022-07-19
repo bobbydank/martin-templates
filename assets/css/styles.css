@@ -135,7 +135,7 @@ main .inline-list {margin-left:0;}
   .md\:inline-list.carrot-seperator li:last-child:after {display:none;}
   .md\:inline-list li:last-child {margin-right:0; padding-right:0;}
   .md\:inline-list.line-seperator.white-lines li {border-color:white;}
-  .md\:inline-list.border-top {border-top:solid thin #333; margin-top:10px; padding-top:10px; padding-left:30px;}
+  .md\:inline-list.border-top {border-top:solid thin #333; margin-top:10px; padding-top:10px; padding-left:0;}
   .md\:inline-list li a {display:block; padding:3px 8px; line-height:1.5; border-bottom:solid thin rgba(255,255,255,0);}
   .md\:inline-list li a:hover,
   .md\:inline-list li a.active {text-decoration:none; border-color:#333;}
@@ -291,11 +291,12 @@ header a {font-family: var(--secondary-font-family);}
 .b3-submenu .submenu {display:none;}
 .b3-submenu .submenu.keep-alive {display:block;}
 .b3-submenu ul {text-align:right; display:block;}
-.b3-submenu ul li {vertical-align: top;}
-.b3-submenu > ul > li {display:inline-block; margin:5px 0 5px 60px;}
+.b3-submenu ul.subs {display:flex; justify-content: flex-end; align-items: flex-start;}
+.b3-submenu ul li {vertical-align: top; line-height:1.2em; margin-bottom:5px;}
+.b3-submenu > ul > li {display:inline-block; margin:5px 0 5px 30px;}
 .b3-submenu li.end-of-row {border-right:none;}
 .b3-submenu li:last-child:after {display:none;}
-.b3-submenu li a {text-decoration: none; text-transform:uppercase; color:white;}
+.b3-submenu li a {text-decoration: none; text-transform:uppercase; color:white; font-size:80%;}
 .b3-submenu > ul > li > a {font-weight:bold;}
 
 .submenu-select {display:none; width:92% !important; max-width:600px; margin:0 auto;}

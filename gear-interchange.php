@@ -34,7 +34,7 @@
       </ul>
     </section>
 
-    <section class="clearfix max-w-screen-md mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
+    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-20" data-aos="fade-in">
       <h2 class="text-primary text-center mb-16">Gear Interchange</h2>
       <ul class="inline-list text-center no-pad-a line-seperator pad-more no-leading monitor-last-item mb-14">
         <li><a class="active" href="/gear-interchange.php">Gear Interchange</a></li>
@@ -42,9 +42,10 @@
         <li><a href="#">Sheave Interchange</a></li>
         <li><a href="#">Conveyor Pulley Interchange</a></li>
       </ul>
-      <div class="text-center mx-auto max-w-2xl">
+      <div class="text-center mx-auto max-w-2xl mb-12">
         <p>The Martin Sprocket & Gear, Inc. Gear Part Number Intterchange allows you to cross reference Martin Gear part numbers with Gears from other manufacturers.</p>
       </div>
+      <p class="py-2 px-4 primary-bg text-white">Enter a complete or partial part number then click the submit button</p>
     </section>
 
     <div class="darkgrey-bg pt-32 pb-24 mb-16">

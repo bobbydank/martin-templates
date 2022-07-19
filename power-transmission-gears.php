@@ -46,9 +46,11 @@
             <h4 class="text-primary text-center">Spur Gears</h4>
             <p class="text-center mb-20 secondary-font">
               <a href="/product-search.php" class="font-semibold">Product Search</a> |
-              <a href="/product-search.php">Part Number Interchange Catalog</a> |
+              <a href="/product-search.php">Part Number Interchange</a> |
+              <a href="/product-search.php">Catalog</a> |
               <a href="/product-search.php">Literature</a> |
-              <a href="/product-search.php">Nomenclature Online Training</a>
+              <a href="#">Nomenclature</a> |
+              <a href="#">Online Training</a>
             </p>
             <a href="#" class="b3-button pos-center-bottom">Request Online Quote</a>
           </div>
@@ -58,10 +60,12 @@
             <img src="/assets/imgs/product/gears/gears_bevel-gears.jpg" class="w-11/12 mx-auto mb-8" alt="Bevel Gears">
             <h4 class="text-primary text-center">Bevel Gears</h4>
             <p class="text-center mb-20 secondary-font">
-              <a href="#" class="font-semibold">Product Search</a> |
-              <a href="#">Part Number Interchange Catalog</a> |
-              <a href="#">Literature</a> |
-              <a href="#">Nomenclature Online Training</a>
+              <a href="/product-search.php" class="font-semibold">Product Search</a> |
+              <a href="/product-search.php">Part Number Interchange</a> |
+              <a href="/product-search.php">Catalog</a> |
+              <a href="/product-search.php">Literature</a> |
+              <a href="#">Nomenclature</a> |
+              <a href="#">Online Training</a>
             </p>
             <a href="#" class="b3-button pos-center-bottom">Request Online Quote</a>
           </div>
@@ -71,10 +75,12 @@
             <img src="/assets/imgs/product/gears/gears_worm-gears.jpg" class="w-11/12 mx-auto mb-8" alt="Worms and Worm Gears">
             <h4 class="text-primary text-center">Worms and Worm Gears</h4>
             <p class="text-center mb-20 secondary-font">
-              <a href="#" class="font-semibold">Product Search</a> |
-              <a href="#">Part Number Interchange Catalog</a> |
-              <a href="#">Literature</a> |
-              <a href="#">Nomenclature Online Training</a>
+              <a href="/product-search.php" class="font-semibold">Product Search</a> |
+              <a href="/product-search.php">Part Number Interchange</a> |
+              <a href="/product-search.php">Catalog</a> |
+              <a href="/product-search.php">Literature</a> |
+              <a href="#">Nomenclature</a> |
+              <a href="#">Online Training</a>
             </p>
             <a href="#" class="b3-button pos-center-bottom">Request Online Quote</a>
           </div>
@@ -84,10 +90,12 @@
             <img src="/assets/imgs/product/gears/gears_gear-rack.jpg" class="w-11/12 mx-auto mb-8" alt="Gear Racks">
             <h4 class="text-primary text-center">Gear Rack</h4>
             <p class="text-center mb-20 secondary-font">
-              <a href="#" class="font-semibold">Product Search</a> |
-              <a href="#">Part Number Interchange Catalog</a> |
-              <a href="#">Literature</a> |
-              <a href="#">Nomenclature Online Training</a>
+              <a href="/product-search.php" class="font-semibold">Product Search</a> |
+              <a href="/product-search.php">Part Number Interchange</a> |
+              <a href="/product-search.php">Catalog</a> |
+              <a href="/product-search.php">Literature</a> |
+              <a href="#">Nomenclature</a> |
+              <a href="#">Online Training</a>
             </p>
             <a href="#" class="b3-button pos-center-bottom">Request Online Quote</a>
           </div>
@@ -97,10 +105,12 @@
             <img src="/assets/imgs/product/gears/gears_miter-gears.jpg" class="w-11/12 mx-auto mb-8" alt="Miter Gears">
             <h4 class="text-primary text-center">Miter Gears</h4>
             <p class="text-center mb-20 secondary-font">
-              <a href="#" class="font-semibold">Product Search</a> |
-              <a href="#">Part Number Interchange Catalog</a> |
-              <a href="#">Literature</a> |
-              <a href="#">Nomenclature Online Training</a>
+              <a href="/product-search.php" class="font-semibold">Product Search</a> |
+              <a href="/product-search.php">Part Number Interchange</a> |
+              <a href="/product-search.php">Catalog</a> |
+              <a href="/product-search.php">Literature</a> |
+              <a href="#">Nomenclature</a> |
+              <a href="#">Online Training</a>
             </p>
             <a href="#" class="b3-button pos-center-bottom">Request Online Quote</a>
           </div>
