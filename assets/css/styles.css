@@ -194,15 +194,16 @@ a.arrow-link {padding-right:20px; display:block; background:url('../imgs/blue-ar
   text-transform: uppercase;
   color:#000;
   font-family: var(--primary-headline-font-family);
-  padding:5px 40px 7px 20px;
   position: relative;
   transition:all 0.5s;
+  padding:5px 40px 7px 20px;
   background-color:white;
   display:inline-block;
   border:solid thin #000;
   font-size:90%;
 }
-.b3-button::before {
+
+.b3-button:not(.no-arrow)::before {
   transform:translateY(-50%);
   content: "\f061";
   transition:all 0.5s;
@@ -229,16 +230,22 @@ a.arrow-link {padding-right:20px; display:block; background:url('../imgs/blue-ar
 .b3-button.black:hover {background:transparent;}
 .b3-button.black::before {color:white;}
 .b3-button.black:hover::before {color:black;}
+.b3-button.no-arrow {padding:5px 20px 7px;}
+.b3-button.smaller.no-arrow {padding:3px 10px 4px 10px;}
+.b3-button.smaller.no-arrow input {padding:0;}
 
-div.b3-button input[type="submit"] {
+.b3-button input {
   padding:0;
-  background:transparent;
+  background:transparent !important;
   padding:0 10px 0 0;
   color:#000;
   border:none;
   text-transform:uppercase;
 }
-div.b3-button.black input[type="submit"] {color:var(--secondary-color);}
+.b3-button.black input {color:var(--secondary-color);}
+
+.b3-button.white-text input {color:white;}
+.b3-button.white-text:hover input {color:#333 !important; background-color: white;}
 
 /* Video Slider
    ========================================================================== */
@@ -633,6 +640,10 @@ header a {font-family: var(--secondary-font-family);}
   font-family: var(--primary-headline-font-family);
 }
 
+.search-form .input-group.no-button input[type="search"] {
+  width:calc(100% - 42px);
+}
+
 .search-form input[type="search"]::placeholder {
   color: #333333;
   font-weight: bold;
@@ -823,6 +834,19 @@ header a {font-family: var(--secondary-font-family);}
 
 .b3-select select option {
   font-size:14px;
+}
+
+.b3-select.white {
+  background-color: white;
+  border:solid thin black;
+  background-image:url('/assets/imgs/down-arrow-blk.svg');
+}
+
+.b3-select.white select {
+  color: #333333;
+  font-family: var(--primary-headline-font-family);
+  font-weight: bold;
+  font-size: 14px;
 }
 
 /* Grid Borders
