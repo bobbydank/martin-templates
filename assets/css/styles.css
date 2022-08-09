@@ -176,6 +176,12 @@ input[type="number"].qty-field {width:70px; background:white; margin-bottom:0; b
 
 .mh-235 {min-height:235px;}
 
+.b3-rounded-border {
+  border-radius: 25px;
+  overflow: hidden;
+  border:solid thin #ccc;
+}
+
 /* Arrow Link
    ========================================================================== */
 
