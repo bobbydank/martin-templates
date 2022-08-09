@@ -45,7 +45,31 @@
       <div class="text-center mx-auto max-w-2xl mb-12">
         <p>The Martin Sprocket & Gear, Inc. Gear Part Number Intterchange allows you to cross reference Martin Gear part numbers with Gears from other manufacturers.</p>
       </div>
-      <p class="py-2 px-4 primary-bg text-white">Enter a complete or partial part number then click the submit button</p>
+      <p class="py-2 px-4 primary-bg text-white mb-0">Enter a complete or partial part number then click the submit button</p>
+      <form role="search" method="" class="search-form md:flex" action="" enctype="multipart/form-data">
+        <div class="md:w-1/2 md:flex justify-start">
+          <div class="input-group no-button clearfix md:mr-3 my-3" style="max-width:200px;">
+              <input type="search" placeholder="manufacturer part #" value="" name="search"  />
+          </div>
+          <div class="tribFilters contentBlock b3-select white my-3">
+            <select name="">
+              <option value="">Menufacturer</option>
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="md:w-1/2 flex md:flex-row-reverse flex-col-reverse">
+          <div class="b3-button black white-text smaller my-3 no-arrow">
+            <input type="submit" value="Reset" style="" />
+          </div>
+          <div class="b3-button black smaller my-3 md:mr-3 ">
+            <input type="submit" value="Submit" style="" />
+          </div>
+        </div>
+      </form>
+      
     </section>
 
     <div class="darkgrey-bg pt-32 pb-24 mb-16">
