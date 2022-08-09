@@ -182,7 +182,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Training</a>
+                  <a href="/training.php">Training</a>
                 </li>
                 <li>
                   <a href="/blog.php">Blog</a>
