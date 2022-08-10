@@ -619,7 +619,8 @@ table td {
     padding: 15px;
     line-height: 1.5;
     vertical-align: top;
-    border: 1px solid #cccccc;
+    border: 1px solid #333333;
+    text-align: center;
 }
 
 table th {
@@ -643,16 +644,16 @@ table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid #333333;
 }
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
 }
 
 table tbody + tbody {
-    border-top: 2px solid #cccccc;
+    border-top: 2px solid #333333;
 }
 
 @media (max-width: 767px) {
@@ -670,6 +671,8 @@ table tbody + tbody {
         font-weight: 400;
     }
 }
+
+table td p {margin:0;}
 
 /*
 DO NOT CHANGE THIS FILE
