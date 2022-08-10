@@ -69,7 +69,66 @@
           </div>
         </div>
       </form>
-      
+      <table id="tblResultsHeader" cellspacing="0" cellpadding="0" width="100%">
+        <thead class="gridheader">
+          <tr class="tableheadbg">
+            <td class="copy">
+              <p style="color: black">
+                Manufacturer Part Number
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                Martin Part Number
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                Description
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                Manufacturer
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                Martin Catalog Link
+              </p>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tableheadbg">
+            <td class="copy">
+              <p style="color: black">
+                -
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                -
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                -
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                -
+              </p>
+            </td>
+            <td class="copy">
+              <p style="color: black">
+                -
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <div class="darkgrey-bg pt-32 pb-24 mb-16">
