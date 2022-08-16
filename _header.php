@@ -23,7 +23,7 @@
                 <a class="text-white hover:text-secondary" href="/careers.php">Careers</a>
               </li>
               <li>
-                <a class="text-secondary hover:text-white" href="#">Request a quote</a>
+                <a class="text-secondary hover:text-white" href="/request-quote.php">Request a quote</a>
               </li>
             </ul>
           </li>
