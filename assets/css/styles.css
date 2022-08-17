@@ -175,7 +175,10 @@ a.no-td:hover {text-decoration:none;}
 input[type="number"].qty-field {width:70px; background:white; margin-bottom:0; border:solid thin #333; padding-top:2px; padding-bottom:2px;}
 
 .mh-235 {min-height:235px;}
-.mh-210 {min-height:210px;}
+.mh-200 {min-height:200px;}
+.mh-180 {min-height:180px;}
+
+.har-1\/2 {height:0; padding-top:50%}
 
 .b3-rounded-border {
   border-radius: 25px;

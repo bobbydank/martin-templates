@@ -44,40 +44,54 @@
 
     <section class="clearfix max-w-screen-2xl- mx-auto w-11/12 md:w-10/12 secondary-font mt-36 mb-20" data-aos="fade-in">
       <div class="md:flex justify-items-stretch">
-        <div class="md:w-1/2 lg:w-1/4 p-12">
-          <div class="rounded-xl primary-bg py-8 text-center w-5/6 mx-auto mb-8 mh-210 flex justify-center items-center">
-            <img src="/assets/imgs/part-number.svg" class="w-1/2 inline-block" alt="Part Number Interchange">
+        <div class="md:w-1/2 lg:w-1/4 p-6">
+          <div class="rounded-2xl primary-bg py-2 text-center w-full mb-8 mh-200 flex justify-center items-center">
+            <img src="/assets/imgs/icons/power-transmission.svg" class="w-1/2 inline-block" alt="Part Number Interchange">
           </div>
-          <h5 class="text-primary text-center mb-8">Part Number Interchange</h5>
-          <p class="leading-loose text-center">
-            
+          <h5 class="text-primary text-center mb-8">Power Transmission</h5>
+          <p class="text-center">
+            Bushings<br />
+            Couplings<br />
+            Gears<br />
+            Sheaves<br />
+            Sprockets<br />
+            Synchronous Sprockets
           </p>
         </div>
-        <div class="md:w-1/2 lg:w-1/4 p-12">
-          <div class="rounded-xl primary-bg py-8 text-center w-5/6 mx-auto mb-8 mh-210 flex justify-center items-center">
-            <img src="/assets/imgs/literature.svg" class="w-1/2 inline-block" alt="Literature and Media">
+        <div class="md:w-1/2 lg:w-1/4 p-6">
+          <div class="rounded-2xl primary-bg py-2 text-center w-full mb-8 mh-200 flex justify-center items-center">
+            <img src="/assets/imgs/icons/material-handling.svg" class="w-1/2 inline-block" alt="Literature and Media">
           </div>  
-          <h5 class="text-primary text-center mb-8">Literature and Media</h5>
-          <p class="leading-loose text-center">
-            
+          <h5 class="text-primary text-center mb-8">Material Handling</h5>
+          <p class="text-center">
+            Bucket Elevators<br />
+            Drag Conveyors<br />
+            Material Handling Major Projects<br />
+            Screw Conveyor Systems<br />
+            Screw Conveyor Components<br />
+            Made-to-Order Conveyor Screws<br />
+            Modular Plastic Screws<br />
+            Shaftless Screw Conveyors<br />
+            Vertical Screw Elevators
           </p>
         </div>
-        <div class="md:w-1/2 lg:w-1/4 p-12">
-          <div class="rounded-xl primary-bg py-8 text-center w-5/6 mx-auto mb-8 mh-210 flex justify-center items-center">
-            <img src="/assets/imgs/hard-hat.svg" class="w-1/2 inline-block" alt="Safety and Installation">
+        <div class="md:w-1/2 lg:w-1/4 p-6">
+          <div class="rounded-2xl primary-bg py-2 text-center w-full mb-8 mh-200 flex justify-center items-center">
+            <img src="/assets/imgs/icons/other-products.svg" class="w-1/2 inline-block" alt="Safety and Installation">
           </div>
-          <h5 class="text-primary text-center mb-8">Part Number Interchange</h5>
-          <p class="leading-loose text-center">
-            
+          <h5 class="text-primary text-center mb-8">Other Products</h5>
+          <p class="text-center">
+            Industrial Hand Tools<br />
+            Custom Products
           </p>
         </div>
-        <div class="md:w-1/2 lg:w-1/4 p-12">
-          <div class="rounded-xl primary-bg py-8 text-center w-5/6 mx-auto mb-8 mh-210 flex justify-center items-center">
-            <img src="/assets/imgs/literature.svg" class="w-1/2 inline-block" alt="Literature and Media">
+        <div class="md:w-1/2 lg:w-1/4 p-6">
+          <div class="rounded-2xl primary-bg py-2 text-center w-full mb-8 mh-200 flex justify-center items-center">
+            <img src="/assets/imgs/icons/conveyor-pulleys.svg" class="w-1/2 inline-block" alt="Literature and Media">
           </div>  
-          <h5 class="text-primary text-center mb-8">Literature and Media</h5>
-          <p class="leading-loose text-center">
-            
+          <h5 class="text-primary text-center mb-8">Conveyor Pulleys</h5>
+          <p class="text-center">
+            Conveyor Pulleys
           </p>
         </div>
       </div>
