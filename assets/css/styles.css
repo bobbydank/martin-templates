@@ -125,7 +125,6 @@ main .inline-list {margin-left:0;}
 .inline-list li a.active {text-decoration:none; border-color:var(--primary-color); color:var(--primary-color);}
 
 @media (min-width: 768px) {
-  .md\:inline-list {}
   .md\:inline-list li {display:inline-block; list-style:none; line-height:1; position:relative;}
   .md\:inline-list.line-seperator li {border-right:solid 1px #333; margin-left:-4px;}
   .md\:inline-list.line-seperator li:last-child {border-right:none;}
@@ -144,7 +143,6 @@ main .inline-list {margin-left:0;}
 #menu li a:hover,
 #menu li a.active {color:white; background-color:var(--primary-color)}
 
-.big-callout {}
 .big-callout a {position:relative; display:block;}
 .big-callout .callout-text {position:absolute; bottom:0; left:0; right:0; padding:15px 0 20px; background-color:rgba(0,0,0,0.25);}
 .big-callout .callout-text .fa-arrow-right {
@@ -323,7 +321,7 @@ header a {font-family: var(--secondary-font-family);}
 #menu i {color:white; font-size:35px;}
 
 @media (min-width:767px) {
-  #menu .fa-solid, .hamburger-icon {}
+  
 }
 
 @media (max-width:767px) {
@@ -351,14 +349,12 @@ header a {font-family: var(--secondary-font-family);}
 }
 
 .page-hero {background-position:center; background-repeat:no-repeat; background-size:cover; border-bottom:10px solid var(--secondary-color);}
-.page-hero h1 {}
 
 /* Footer
    ========================================================================== */
 
 .footer-logo {max-width:200px;}
 
-.social-icons {}
 .social-icons li {display:inline-block; margin:0 2px;}
 .social-icons i {font-size:30px; color:#595B5E;}
 
