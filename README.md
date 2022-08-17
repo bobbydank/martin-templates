@@ -36,4 +36,4 @@ Product Search: http://martin.dev2.barn3s.com/product-search.php \
 Request A Quote - Gears: http://martin.dev2.barn3s.com/request-quote-gears.php \
 Request A Quote: http://martin.dev2.barn3s.com/request-quote.php \
 Resources: http://martin.dev2.barn3s.com/resources.php \
-Training: http://martin.dev2.barn3s.com/training.php \
+Training: http://martin.dev2.barn3s.com/training.php 
