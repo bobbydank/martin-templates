@@ -19,7 +19,7 @@ Simply copy of the contents of each file to the where the include statement is l
 Links for viewing
 -----------------
 
-Blog: http://martin.dev2.barn3s.com/blog.php__
+Blog: http://martin.dev2.barn3s.com/blog.php \
 Careers: http://martin.dev2.barn3s.com/careers.php__
 Catalogs: http://martin.dev2.barn3s.com/catalogs.php__
 Company: http://martin.dev2.barn3s.com/company.php__
