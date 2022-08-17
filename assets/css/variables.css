@@ -25,6 +25,6 @@
 .darkgrey-bg {background-color:#c5c5c5;}
 .primary-bg {background-color:var(--primary-color);}
 
-.hover\:text-secondary:hover {color:var(--secondary-color);}
-.hover\:text-primary:hover {color:var(--primary-color);}
-.hover\:text-white:hover {color:white;}
+.hover\:text-secondary:hover {color:var(--secondary-color) !important;}
+.hover\:text-primary:hover {color:var(--primary-color) !important;}
+.hover\:text-white:hover {color:white !important;}
