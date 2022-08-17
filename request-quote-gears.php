@@ -54,19 +54,74 @@
       </div>
     </section>
 
-    <section class="py-14 px-14 clearfix max-w-screen-xl mx-auto my-20 w-11/12 b3-shadow" data-aos="fade-up">
+    <section class="py-14 px-14 clearfix max-w-screen-lg mx-auto my-20 w-11/12 b3-shadow" data-aos="fade-up">
       <form action="" method="" enctype="multipart/form-data">
         <h3 class="text-black text-center mb-4">Gear Information</h3>
         <p class="text-center text-xl font-semibold">Enter as much data in the fields below to allow us to quote the gear you need.</p>
-        <div class="md:flex md:gap-10 my-12">
+        <div class="md:flex md:gap-10 mt-12">
           <div class="w-full md:w-2/4 text-center md:text-left">
-
+            <input type="text" placeholder="Quantity" name="">
+            <input type="text" placeholder="Gear Pitch" name="">
+            <select name="">
+              <option value="-1">Pressure Angle</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+            </select>
+            <input type="text" placeholder="Maximum OD / Total Rack Length" name="">
+            <select name="">
+              <option value="-1">Bore Type</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+            </select>
+            <input type="text" placeholder="Bore Size" name="">
+            <input type="text" placeholder="Set Screw Size" name="">
+            <input type="text" placeholder="Shaft Centers / Mounting Distance" name="">
           </div>
           <div class="w-full md:w-2/4 text-center md:text-left">
-
+            <select name="">
+              <option value="-1">Type of Gear</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+            </select>
+            <input type="text" placeholder="Number of Teeth" name="">
+            <input type="text" placeholder="Face Width" name="">
+            <input type="text" placeholder="Mazimum LTB" name="">
+            <select name="">
+              <option value="-1">Hug Configuration</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+            </select>
+            <input type="text" placeholder="Keyway Size" name="">
+            <input type="text" placeholder="# of Set Screws" name="">
+            <input type="text" placeholder="Material" name="">
           </div>
         </div>
-        <h3 class="text-black text-center">Customer Information</h3>
+        <textarea name="" id="" style="max-height:100px; min-height:100px;" onblur="if (this.value == '') {this.value = 'Notes';}" onfocus="if (this.value == 'Notes') {this.value = '';}">Notes</textarea>
+        <div class="md:flex justify-start">
+          <div class="md:w-1/2 text-base">
+            <p class="mb-3 flex justify-start items-start gap-3">
+              <input class="mt-2" type="radio" id="one" name="" value="one">
+              <label class="leading-normal" for="two">I would like to be contacted for some technical support.</label>
+            </p>
+            <p class="flex justify-start items-start gap-3">
+              <input class="mt-2" type="radio" id="two" name="" value="two">
+              <label class="leading-normal" for="two">I would like to submit a sample part for Martin's review.</label>
+            </p>
+            <div class="md:pl-5 flex justify-start items-start">
+              <label for="file-upload">
+                <img src="/assets/imgs/file-upload.jpg" style="width:150px; padding-right:20px;" />
+              </label>
+              <input type="file" id="file-upload" name="" class="b3-file-input">
+            </div>  
+          </div>
+          <div class="md:w-1/2">
+            <div class="md:px-20">
+              <p>Please reference my job number when responding to my request to quote.</p>
+              <input type="text" placeholder="Job Number" name="">
+            </div>
+          </div>
+        </div>
+        <h3 class="text-black text-center mt-16">Customer Information</h3>
         <div class="md:flex md:gap-10">
           <div class="w-full md:w-2/4 text-center md:text-left">
             <input type="text" placeholder="Company Name" name="">
