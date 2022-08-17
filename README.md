@@ -20,20 +20,20 @@ Links for viewing
 -----------------
 
 Blog: http://martin.dev2.barn3s.com/blog.php \
-Careers: http://martin.dev2.barn3s.com/careers.php__
-Catalogs: http://martin.dev2.barn3s.com/catalogs.php__
-Company: http://martin.dev2.barn3s.com/company.php__
-Contact: http://martin.dev2.barn3s.com/contact.php__
-Custom Products: http://martin.dev2.barn3s.com/custom-products.php__
-Forgings: http://martin.dev2.barn3s.com/forging.php__
-Gear Interchange: http://martin.dev2.barn3s.com/gear-interchange.php__
-Home: http://martin.dev2.barn3s.com/__
-Locations: http://martin.dev2.barn3s.com/locations.php__
-Power Transmission Gears: http://martin.dev2.barn3s.com/power-transmission-gears.php__
-Power Transmission: http://martin.dev2.barn3s.com/power-transmission.php__
-Product Detail: http://martin.dev2.barn3s.com/product-detail.php__
-Product Search: http://martin.dev2.barn3s.com/product-search.php__
-Request A Quote - Gears: http://martin.dev2.barn3s.com/request-quote-gears.php__
-Request A Quote: http://martin.dev2.barn3s.com/request-quote.php__
-Resources: http://martin.dev2.barn3s.com/resources.php__
-Training: http://martin.dev2.barn3s.com/training.php__
+Careers: http://martin.dev2.barn3s.com/careers.php \
+Catalogs: http://martin.dev2.barn3s.com/catalogs.php \
+Company: http://martin.dev2.barn3s.com/company.php \
+Contact: http://martin.dev2.barn3s.com/contact.php \
+Custom Products: http://martin.dev2.barn3s.com/custom-products.php \
+Forgings: http://martin.dev2.barn3s.com/forging.php \
+Gear Interchange: http://martin.dev2.barn3s.com/gear-interchange.php \
+Home: http://martin.dev2.barn3s.com/ \
+Locations: http://martin.dev2.barn3s.com/locations.php \
+Power Transmission Gears: http://martin.dev2.barn3s.com/power-transmission-gears.php \
+Power Transmission: http://martin.dev2.barn3s.com/power-transmission.php \
+Product Detail: http://martin.dev2.barn3s.com/product-detail.php \
+Product Search: http://martin.dev2.barn3s.com/product-search.php \
+Request A Quote - Gears: http://martin.dev2.barn3s.com/request-quote-gears.php \
+Request A Quote: http://martin.dev2.barn3s.com/request-quote.php \
+Resources: http://martin.dev2.barn3s.com/resources.php \
+Training: http://martin.dev2.barn3s.com/training.php \
