@@ -52,7 +52,7 @@
           <p class="text-center">
             Bushings<br />
             Couplings<br />
-            Gears<br />
+            <a href="/request-quote-gears.php">Gears</a><br />
             Sheaves<br />
             Sprockets<br />
             Synchronous Sprockets
