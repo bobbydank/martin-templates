@@ -885,3 +885,17 @@ header a {font-family: var(--secondary-font-family);}
     border-bottom-width:0px;
   }
 }
+
+/* File Input
+   ========================================================================== */
+
+.b3-file-input::-webkit-file-upload-button {
+  display:none;
+}
+
+.b3-file-input {
+  border:none;
+  color:black;
+  background: none;
+  direction:ltr;
+}
