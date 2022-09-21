@@ -50,6 +50,119 @@
         <li><a href="/catalogs/plastics.php">Plastics</a></li>
       </ul>
     </section>
+
+    <section class="clearfix max-w-screen-2xl mx-auto items-center w-11/12">
+      <ul class="downloads-list mb-10">
+        <li>
+          <a href="#">
+            <p>Power Transmission - The Big Catalog (Full)</p>
+            <p>Download PDF</p>
+          </a>
+        </li>
+      </ul>
+      <div class="list-dropper up">
+        <span>Sprocket Catalogs</span>
+        <ul class="downloads-list">
+          <li>
+            <a href="#">
+              <p>Document 1</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Document 2</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="list-dropper up">
+        <span>Bushing Catalogs</span>
+        <ul class="downloads-list">
+          <li>
+            <a href="#">
+              <p>Document 1</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Document 2</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="list-dropper up">
+        <span>Gear Catalogs</span>
+        <ul class="downloads-list">
+          <li>
+            <a href="#">
+              <p>Document 1</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Document 2</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="list-dropper up">
+        <span>Synchronous Catalogs</span>
+        <ul class="downloads-list">
+          <li>
+            <a href="#">
+              <p>Document 1</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Document 2</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="list-dropper up">
+        <span>Sheaves Catalogs</span>
+        <ul class="downloads-list">
+          <li>
+            <a href="#">
+              <p>Document 1</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Document 2</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="list-dropper up">
+        <span>Coupling Catalogs</span>
+        <ul class="downloads-list">
+          <li>
+            <a href="#">
+              <p>Document 1</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Document 2</p>
+              <p>Download PDF</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
   <!-- End Main -->
 
