@@ -49,14 +49,15 @@
 /* Block
    ========================================================================== */
 
-.list-dropper {display:block; background:white; border:solid thin #333; max-width:1024px; margin:0 auto 30px; cursor:pointer;}
-.downloads-list {margin:0 auto; max-width:1024px; font-size:120%; border:solid thin #333;}
-.list-dropper .downloads-list {display:none;}
-.list-dropper .downloads-list {border:none;}
+.list-dropper {display:block; background:white; border:solid thin #333; max-width:1300px; margin:0 auto 30px; cursor:pointer;}
+.downloads-list {margin:0 auto 30px; max-width:1300px; font-size:120%; border:solid thin #333; }
+.list-dropper .downloads-list {display:none; border:none; margin-bottom:0;}
 .downloads-list a:hover {text-decoration: none;}
 .downloads-list li,
 .list-dropper span {padding:5px 20px; background:white; list-style:none; font-weight:500;}
-.downloads-list li:nth-child(odd) {background:#fef0d9;}
+/* .downloads-list li:nth-child(odd) {background:#fef0d9;} */
+.downloads-list li {background:#fef0d9;}
+.list-dropper .downloads-list li {border-top:solid thin black;}
 .downloads-list p,
 .list-dropper span p {margin:5px 0;}
 .downloads-list a,
