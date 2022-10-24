@@ -9,6 +9,7 @@ Does it need to stay PHP?
 -------------------------
 
 Nope. You can change the extension on the file from php to html and the files will render in a browser like normal. However, the php include is not work and render as text. To fix this, copy the contents of the _FILE.php to the location of the include statment.
+
 Here is the code to look for that will need to be replaced:
 ```php
 <?php include '_head.php'; ?>
