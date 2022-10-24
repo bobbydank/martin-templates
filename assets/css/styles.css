@@ -7,6 +7,8 @@
   main.home, .page-hero {margin-top:186px;}
 }
 
+.font-fira {font-family:var(--secondary-font-family);}
+
 /* Product Details
    ========================================================================== */
 
@@ -488,7 +490,7 @@ header a {font-family: var(--secondary-font-family);}
 
 .submit-button {color:transparent; height:75px; width:150px; display:inline-block; background:url('/assets/imgs/submit-btn.svg') center right no-repeat; background-size:contain; border:none;}
 .submit-button:hover {background-color:transparent; color:transparent;}
-.submit-button.smaller {width:100px; height:50px;}
+.submit-button.smaller {width:131px; height:73px;}
 
 /* Pretty checkbox
    ========================================================================== */
