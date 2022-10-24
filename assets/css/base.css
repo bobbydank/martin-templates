@@ -616,11 +616,10 @@ table {
 
 table th,
 table td {
-    padding: 15px;
+    padding: 15px 30px;
     line-height: 1.5;
     vertical-align: top;
     border: 1px solid #333333;
-    text-align: center;
 }
 
 table th {
@@ -645,6 +644,10 @@ table thead:first-child tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
     border-top: 1px solid #333333;
+    background-color: #cccccc;
+    font-family: var(--primary-headline-font-family);
+    text-transform:uppercase;
+    font-weight:bold;
 }
 
 table tbody > tr:nth-child(odd) > td,

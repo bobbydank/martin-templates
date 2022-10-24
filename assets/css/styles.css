@@ -252,6 +252,15 @@ a.arrow-link {padding-right:20px; display:block; background:url('../imgs/blue-ar
 .b3-button.white-text input {color:white;}
 .b3-button.white-text:hover input {color:#333 !important; background-color: white;}
 
+.b3-button.orange {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color:black;
+}
+.b3-button.orange:hover {
+  background-color:white;
+}
+
 /* Video Slider
    ========================================================================== */
 
@@ -491,6 +500,13 @@ header a {font-family: var(--secondary-font-family);}
 .submit-button {color:transparent; height:75px; width:150px; display:inline-block; background:url('/assets/imgs/submit-btn.svg') center right no-repeat; background-size:contain; border:none;}
 .submit-button:hover {background-color:transparent; color:transparent;}
 .submit-button.smaller {width:131px; height:73px;}
+
+.logout-button {
+  position: absolute;
+  right:0;
+  top:0;
+  transform: translateY(50%);
+}
 
 /* Pretty checkbox
    ========================================================================== */
@@ -902,3 +918,6 @@ header a {font-family: var(--secondary-font-family);}
   background: none;
   direction:ltr;
 }
+
+/* Grid Borders
+   ========================================================================== */
