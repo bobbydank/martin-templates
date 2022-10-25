@@ -84,7 +84,7 @@
         </tbody>
       </table>
       <div class="text-right">
-        <a href="#" class="b3-button orange no-arrow">New User</a>
+        <a href="http://martin.dev2.barn3s.com/account-maintenance-new.php" class="b3-button orange no-arrow">New User</a>
       </div>
     </section>
   </main>
