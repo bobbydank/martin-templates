@@ -39,7 +39,7 @@
     </section>
 
     <section class="max-w-screen-2xl pb-40 mx-auto w-11/12">
-      <div class="flex items-center flex-wrap items-stretch">
+      <div class="flex items-center flex-wrap">
         <div class="w-full md:w-1/3 text-center text-xl relative md:border-r border-b border-solid border-gray-400" data-aos="fade-up">
           <div class="block md:p-16 p-10 no-td">
             <img src="/assets/imgs/product/gears/gears_spur-gears.jpg" class="w-11/12 mx-auto mb-8" alt="Spur Gears">
