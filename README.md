@@ -44,4 +44,5 @@ Literature & Media : http://martin.dev2.barn3s.com/literature-media.php
 
 Resources: http://martin.dev2.barn3s.com/resources.php \
 Account Maintenance : http://martin.dev2.barn3s.com/account-maintenance.php \
+New Account Maintenance : http://martin.dev2.barn3s.com/account-maintenance-new.php \
 Order Status : http://martin.dev2.barn3s.com/order-status.php
