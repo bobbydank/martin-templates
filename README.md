@@ -21,7 +21,6 @@ Simply copy of the contents of each file to the where the include statement is l
 Links for viewing
 -----------------
 
-Account Maintenance : http://martin.dev2.barn3s.com/account-maintenance.php \
 Blog: http://martin.dev2.barn3s.com/blog.php \
 Careers: http://martin.dev2.barn3s.com/careers.php \
 Catalogs: http://martin.dev2.barn3s.com/catalogs.php \
@@ -38,6 +37,10 @@ Product Detail: http://martin.dev2.barn3s.com/product-detail.php \
 Product Search: http://martin.dev2.barn3s.com/product-search.php \
 Request A Quote - Gears: http://martin.dev2.barn3s.com/request-quote-gears.php \
 Request A Quote: http://martin.dev2.barn3s.com/request-quote.php \
-Resources: http://martin.dev2.barn3s.com/resources.php \
 Training: http://martin.dev2.barn3s.com/training.php \
 Literature & Media : http://martin.dev2.barn3s.com/literature-media.php 
+
+### New as of 10/24
+
+Resources: http://martin.dev2.barn3s.com/resources.php \
+Account Maintenance : http://martin.dev2.barn3s.com/account-maintenance.php 
