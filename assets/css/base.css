@@ -675,7 +675,24 @@ table tbody + tbody {
     }
 }
 
-table td p {margin:0;}
+table td p {
+    margin:0;
+    color: black;
+}
+
+table td a {
+    color:var(--primary-color);
+}
+
+table select {
+    margin:10px 0;
+}
+
+table input[type="text"],
+table select {
+    border:solid thin black;
+    background-color: white;
+}
 
 /*
 DO NOT CHANGE THIS FILE
