@@ -61,22 +61,22 @@
               <p>Order Date</p>
             </td>
             <td class="copy">
-              <p>Purchase Order</p>
-              <select name="">
+              <p class="mb-3">Purchase Order</p>
+              <select class="mb-3" name="">
                 <option value="">Last 30 Days</option>
               </select>
               <input type="text" name="" />
-              <div class="b3-button black smaller no-arrow">
+              <div class="mt-3 b3-button black smaller no-arrow">
                 <input type="submit" value="Get PO" />
               </div>
             </td>
             <td class="copy">
-              <p>Martin Part</p>
-              <select name="">
+              <p class="mb-3">Martin Part</p>
+              <select class="mb-3" name="">
                 <option value="">Last 30 Days</option>
               </select>
               <input type="text" name="" />
-              <div class="b3-button black smaller no-arrow">
+              <div class="mt-3  b3-button black smaller no-arrow">
                 <input type="submit" value="Get Part" />
               </div>
             </td>

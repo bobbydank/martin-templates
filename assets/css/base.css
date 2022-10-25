@@ -618,7 +618,7 @@ table th,
 table td {
     padding: 15px 30px;
     line-height: 1.5;
-    vertical-align: top;
+    vertical-align: middle;
     border: 1px solid #333333;
 }
 
@@ -692,6 +692,7 @@ table input[type="text"],
 table select {
     border:solid thin black;
     background-color: white;
+    margin:0;
 }
 
 /*

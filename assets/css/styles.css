@@ -924,3 +924,11 @@ header a {font-family: var(--secondary-font-family);}
 
 /* Grid Borders
    ========================================================================== */
+
+input.bg-white {background-color: white;}
+
+.large-orange-text {
+  font-size:20px;
+  color:var(--secondary-color);
+  font-weight: bold;
+}
