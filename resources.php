@@ -107,7 +107,7 @@
           <div class="rounded-xl primary-bg py-8 text-center w-5/6 mx-auto mb-8 mh-235 flex justify-center items-center">
             <img src="/assets/imgs/hard-hat.svg" class="w-1/2 inline-block" alt="Safety and Installation">
           </div>
-          <h5 class="text-primary text-center mb-8">Part Number Interchange</h5>
+          <h5 class="text-primary text-center mb-8">Safety and Installation</h5>
           <p class="leading-loose">
             <a href="#" class="arrow-link">Power Transmission</a>
             <a href="#" class="arrow-link">Material Handling</a>
