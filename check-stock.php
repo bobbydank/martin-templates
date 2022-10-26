@@ -42,7 +42,7 @@
       </p>
 
       <div class="border border-solid border-gray-400 md:flex">
-        <div class="md:w-3/12 md:p-12 p-6 md:border-r border-solid border-gray-400">
+        <div class="md:w-3/12 md:p-12 p-6 md:border-r md:border-b-0 border-b border-solid border-gray-400">
           <p>
             <span class="font-semibold text-primary">Customer Location</span> <br>
             ISC Companies Inc<br>
@@ -98,57 +98,84 @@
       <div class="text-center primary-bg py-3 text-white uppercase">
         <h6 class="mb-0 mt-0">Enter part number and quantity requested</h6>
       </div>
-      <table id="tblResultsHeader" cellspacing="0" cellpadding="0" width="100%">
-        <thead class="gridheader">
-          <tr class="tableheadbg text-left">
-            <td class="copy">
-              <p>Part Number</p>
-            </td>
-            <td class="copy">
-              <p>QTY Requested</p>
-            </td>
-            <td class="copy">
-              <p>Description</p>
-            </td>
-            <td class="copy">
-              <p>Closest Available Inventory</p>
-            </td>
-            <td class="copy">
-              <p>Price ( )</p>
-            </td>
-            <td class="copy">
-              <p>Approx Weight (LB)</p>
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="tableheadbg text-left">
-            <td class="copy">
-              <div class="md:flex gap-3 justify-center items-center">
-                <input type="text" name="" value="S0B50" />
-                <div class="b3-button black smaller no-arrow">
-                  <input type="submit" value="Alt Parts" />
+      <div class="table-container">
+        <table id="tblResultsHeader" cellspacing="0" cellpadding="0" width="100%" class="mb-8">
+          <thead class="gridheader">
+            <tr class="tableheadbg text-left">
+              <td class="copy">
+                <p>Part Number</p>
+              </td>
+              <td class="copy">
+                <p>QTY Requested</p>
+              </td>
+              <td class="copy">
+                <p>Description</p>
+              </td>
+              <td class="copy">
+                <p>Closest Available Inventory</p>
+              </td>
+              <td class="copy">
+                <p>Price ( )</p>
+              </td>
+              <td class="copy">
+                <p>Approx Weight (LB)</p>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tableheadbg text-left">
+              <td class="copy">
+                <div class="md:flex gap-3 justify-center items-center">
+                  <input type="text" name="" value="S0B50" />
+                  <div class="b3-button black smaller no-arrow">
+                    <input type="submit" value="Alt Parts" />
+                  </div>
                 </div>
-              </div>
-            </td>
-            <td class="copy">
-              <input class="bg-white border border-solid border-black" type="text" value="1" name="">
-            </td>
-            <td class="copy">
-              
-            </td>
-            <td class="copy">
-              <p>1 EA - MINNESOTA</p>
-            </td>
-            <td class="copy">
-              <p>49.03</p>
-            </td>
-            <td class="copy">
-              <p>9.78</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              </td>
+              <td class="copy">
+                <input class="bg-white border border-solid border-black" type="text" value="1" name="">
+              </td>
+              <td class="copy">
+                <div class="flex justify-center items-center">
+                  <img src="assets/imgs/gear-tiny.jpg" alt="">
+                  <p>SBK Roller B</p>
+                </div>
+              </td>
+              <td class="copy">
+                <p>1 EA - MINNESOTA</p>
+              </td>
+              <td class="copy">
+                <p>49.03</p>
+              </td>
+              <td class="copy">
+                <p>9.78</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="md:flex text-center justify-center items-center">
+        <ul class="md:text-left inline-list pad-more md:w-1/2 mb-8">
+          <li>
+            <a href="#" class="text-primary">Add Line</a>
+          </li>
+          <li>
+            <a href="#" class="text-primary">Clear Form</a>
+          </li>
+        </ul>
+        <ul class="md:text-right inline-list no-border pad-more md:w-1/2">
+          <li>
+            <div class="b3-button black smalle">
+              <input type="submit" value="Look Up" />
+            </div>
+          </li>
+          <li>
+            <div class="b3-button orange smalle">
+              <input type="submit" value="Order" />
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <!-- End Main -->
