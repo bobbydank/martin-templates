@@ -43,46 +43,48 @@
     </section>
 
     <section class="clearfix max-w-screen-2xl relative mx-auto w-11/12 secondary-font mb-20" data-aos="fade-in">
-      <table id="tblResultsHeader" cellspacing="0" cellpadding="0" width="100%">
-        <thead class="gridheader">
-          <tr class="tableheadbg">
-            <td class="copy">
-              <p style="color: black">
-                Name
-              </p>
-            </td>
-            <td class="copy">
-              <p style="color: black">
-                Qty Requested
-              </p>
-            </td>
-            <td class="copy">
-              <p style="color: black">
-                Approx Weight (lb)
-              </p>
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="tableheadbg">
-            <td class="copy">
-              <p style="color: black">
-                -
-              </p>
-            </td>
-            <td class="copy">
-              <p style="color: black">
-                -
-              </p>
-            </td>
-            <td class="copy">
-              <p style="color: black">
-                -
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-container">
+        <table id="tblResultsHeader" cellspacing="0" cellpadding="0" width="100%">
+          <thead class="gridheader">
+            <tr class="tableheadbg">
+              <td class="copy">
+                <p style="color: black">
+                  Name
+                </p>
+              </td>
+              <td class="copy">
+                <p style="color: black">
+                  Qty Requested
+                </p>
+              </td>
+              <td class="copy">
+                <p style="color: black">
+                  Approx Weight (lb)
+                </p>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tableheadbg">
+              <td class="copy">
+                <p style="color: black">
+                  -
+                </p>
+              </td>
+              <td class="copy">
+                <p style="color: black">
+                  -
+                </p>
+              </td>
+              <td class="copy">
+                <p style="color: black">
+                  -
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div class="text-right">
         <a href="http://martin.dev2.barn3s.com/account-maintenance-new.php" class="b3-button orange no-arrow">New User</a>
       </div>
