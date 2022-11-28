@@ -127,6 +127,8 @@ main .inline-list {margin-left:0;}
 .inline-list.no-pad-a li a {padding:3px 0;}
 .inline-list li a:hover,
 .inline-list li a.active {text-decoration:none; border-color:var(--primary-color); color:var(--primary-color);}
+.header-top .inline-list li a:hover,
+.header-top .inline-list li a.active {text-decoration:none; border-color:transparent; color:var(--secondary-color);}
 
 @media (min-width: 768px) {
   .md\:inline-list li {display:inline-block; list-style:none; line-height:1; position:relative;}

@@ -47,3 +47,7 @@ Account Maintenance : http://martin.dev2.barn3s.com/account-maintenance.php \
 New Account Maintenance : http://martin.dev2.barn3s.com/account-maintenance-new.php \
 Order Status : http://martin.dev2.barn3s.com/order-status.php \
 Check Stock : http://martin.dev2.barn3s.com/check-stock.php
+
+### New as of 11/28
+
+Styles.css
