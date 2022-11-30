@@ -51,3 +51,10 @@ Check Stock : http://martin.dev2.barn3s.com/check-stock.php
 ### New as of 11/28
 
 Styles.css
+
+### Changes as of 11/30
+
+/assets/css/styles.css \
+/assets/img/request-quote-button.svg \
+/assets/img/shaftless-screw.jpg \
+Shaftless Screw Conveyors: http://martin.dev2.barn3s.com/shaftless-screw-conveyors.php

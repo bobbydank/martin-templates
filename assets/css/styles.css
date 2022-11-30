@@ -58,8 +58,7 @@
 .downloads-list a:hover {text-decoration: none;}
 .downloads-list li,
 .list-dropper span {padding:5px 20px; background:white; list-style:none; font-weight:500;}
-/* .downloads-list li:nth-child(odd) {background:#fef0d9;} */
-.downloads-list li {background:#fef0d9;}
+.downloads-list li:nth-child(odd) {background:#fef0d9;}
 .list-dropper .downloads-list li {border-top:solid thin black;}
 .downloads-list p,
 .list-dropper span p {margin:5px 0;}
@@ -204,6 +203,14 @@ input[type="number"].qty-field {width:70px; background:white; margin-bottom:0; b
   border-radius: 25px;
   overflow: hidden;
   border:solid thin #ccc;
+}
+
+.list-none {
+  margin-left:0;
+}
+.list-none li {
+  list-style: none;
+  padding-left:0;
 }
 
 /* Arrow Link
