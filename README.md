@@ -27,7 +27,7 @@ Catalogs: http://martin.dev2.barn3s.com/catalogs.php \
 Company: http://martin.dev2.barn3s.com/company.php \
 Contact: http://martin.dev2.barn3s.com/contact.php \
 Custom Products: http://martin.dev2.barn3s.com/custom-products.php \
-Forgings: http://martin.dev2.barn3s.com/forging.php \
+Forgings: http://martin.dev2.barn3s.com/forgings.php \
 Gear Interchange: http://martin.dev2.barn3s.com/gear-interchange.php \
 Home: http://martin.dev2.barn3s.com/ \
 Locations: http://martin.dev2.barn3s.com/locations.php \
