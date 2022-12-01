@@ -58,3 +58,11 @@ Styles.css
 /assets/img/request-quote-button.svg \
 /assets/img/shaftless-screw.jpg \
 Shaftless Screw Conveyors: http://martin.dev2.barn3s.com/shaftless-screw-conveyors.php
+
+### Changes as of 12/1
+
+/assets/img/heroes/mining.jpg \
+/assets/img/icons/hand.svg \
+/assets/img/icons/laptop.svg \
+/assets/css/styles.css \
+Mining: http://martin.dev2.barn3s.com/mining.php \
