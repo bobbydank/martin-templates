@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Oswald:wght@300;400;500&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/libs/tailwind.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/libs/fontawesome/css/all.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/libs/aos/aos.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/js/libs/mediabox/mediabox.css"/>
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" />
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/variables.css?v=<?php echo time(); ?>"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v=<?php echo time(); ?>"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css?v=<?php echo time(); ?>"/>
+
+  <title>Martin</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="">
+
+  <!-- Don't forget Analytics and Stuff -->
+
+</head>
+
+<body>
+<a class="screen-reader-text" href="#main">Skip to content</a>
+
+<!-- Header -->
+<header id="header" class="bg-white">
+    <div class="header-top py-3">
+      <section class="clearfix text-right max-w-screen-2xl mx-auto items-center w-11/12">
+        <ul class="inline-list uppercase">
+          <li>
+            <a class="text-white" href="tel:+18172583000">817.258.3000</a>
+          </li>
+          <li class="header-flag">
+            <img src="/assets/imgs/american-flag.png" class="w-full" alt="American Flag" />
+          </li>
+          <li class="header-flag">
+            <img src="/assets/imgs/mexican-flag.png" class="w-full" alt="Mexican Flag" />
+          </li>
+          <li class="ml-3">
+            <ul class="inline-list hidden md:block line-seperator white-lines">
+              <li>
+                <a class="text-white hover:text-secondary" href="#">My Account</a>
+              </li>
+              <li>
+                <a class="text-white hover:text-secondary" href="/careers.php">Careers</a>
+              </li>
+              <li>
+                <a class="text-secondary hover:text-white" href="/request-quote.php">Request a quote</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <i title="Search Bar Open" class="ml-2 search-icon fa-solid fa-magnifying-glass"></i>
+          </li>
+          <li>
+            <i title="Shopping Cart" class="ml-3 fa-solid fa-cart-shopping text-white"></i>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="header-main py-6">
+      <section class="clearfix flex max-w-screen-2xl mx-auto items-center w-11/12">
+        <div class="md:w-1/4 w-11/12 max-w-sm">
+          <a href="/" class="block w-full logo">
+            <img src="/assets/imgs/martin-logo.svg" class="w-full" alt="Martin Sprocket & Gear, Inc" />
+          </a>
+        </div>
+        <div class="md:w-3/4 w-11/12 md:text-right">
+          <div class="block md:hidden text-right">
+            <i class="fa-solid fa-bars hamburger-icon"></i>
+          </div>
+          <div id="menu">
+            <div class="menu-inner">
+              <div class="menu-close block md:hidden">
+                <i class="fa-solid fa-circle-xmark"></i>
+              </div>
+              <ul class="the-menu md:inline-list line-seperator uppercase">
+                <li>
+                  <a href="/company.php">Company</a>
+                  <ul class="subs">
+                    <li>
+                        <a href="/company.php">Company</a>
+                    </li>
+                    <li>
+                        <a href="/locations.php">Locations</a>
+                        <ul>
+                          <li>
+                            <a href="/locations.php">United States</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">Canada</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">Mexico</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">Brazil</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">China</a>
+                          </li>
+                          <li>
+                            <a href="/locations.php">United Kingdom</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact.php">Contact</a>
+                        <ul>
+                          <li>
+                            <a href="#">General Info Request</a>
+                          </li>
+                          <li>
+                            <a href="#">Request a Quote</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/careers.php">Careers</a>
+                        <ul>
+                          <li>
+                            <a href="https://recruiting2.ultipro.com/MAR1022/JobBoard/7db9926f-7564-3521-4a93-13c1764fdae3" target="_blank">Current Openings</a>
+                          </li>
+                        </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/resources.php">Resources</a>
+                  <ul class="subs">
+                    <li>
+                        <a href="/resources.php">Customer Login</a>
+                        <ul>
+                          <li>
+                            <a href="#">Order Status</a>
+                          </li>
+                          <li>
+                            <a href="#">Check Stock</a>
+                          </li>
+                          <li>
+                            <a href="#">Account Maintenance</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li>
+                      <a href="#">Part Number Interchange</a>
+                      <ul>
+                        <li>
+                          <a href="#">Idler Sprocket Interchange</a>
+                        </li>
+                        <li>
+                          <a href="#">Sheave Interchange</a>
+                        </li>
+                        <li>
+                          <a href="#">Gear Interchange</a>
+                        </li>
+                        <li>
+                          <a href="#">Conveyor Pulley Interchange</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Safety Installation</a>
+                      <ul>
+                        <li>
+                          <a href="#">Power Transmission</a>
+                        </li>
+                        <li>
+                          <a href="#">Material Handling</a>
+                        </li>
+                        <li>
+                          <a href="#">Industrial Hand Tools</a>
+                        </li>
+                        <li>
+                          <a href="#">Maintenance Guides</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Literature  Media</a>
+                      <ul>
+                        <li>
+                          <a href="#">Nomenclature</a>
+                        </li>
+                        <li>
+                          <a href="#">Press Releases</a>
+                        </li>
+                        <li>
+                          <a href="#">Videos</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Online Training</a>
+                      <ul>
+                        <li>
+                          <a href="#">New User Registration</a>
+                        </li>
+                        <li>
+                          <a href="https://dssp.martin-university.com/users/sign_in" target="_blank">Existing User Login</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/training.php">Training</a>
+                </li>
+                <li>
+                  <a href="/blog.php">Blog</a>
+                </li>
+                <li>
+                  <a href="/contact.php">Contact</a>
+                </li>
+              </ul>
+              <ul class="the-menu md:inline-list line-seperator uppercase border-top">
+                <li>
+                  <a href="/power-transmission.php">Power Transmission</a>
+                  <ul class="subs">
+                      <li>
+                          <a href="#">Sprockets</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Roller Chain Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">Metric Roller Chain Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">800 Series Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">Engineering Class Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">Idler Sprockets</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Gears</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Spur Gears</a>
+                              </li>
+                              <li>
+                                  <a href="#">Gear Rack</a>
+                              </li>
+                              <li>
+                                  <a href="#">Bevel Gears</a>
+                              </li>
+                              <li>
+                                  <a href="#">Miter Gears</a>
+                              </li>
+                              <li>
+                                  <a href="#">Worms and Worm Gears</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Sheaves</a>
+                          <ul>
+                              <li>
+                                  <a href="#">QD Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">Variable Pitch Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">Taper Bushed Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">Fractional Horsepower Sheaves</a>
+                              </li>
+                              <li>
+                                  <a href="#">MST® Sheaves</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Bushings</a>
+                          <ul>
+                              <li>
+                                  <a href="#">QD Bushings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Taper Bushed Bushings</a>
+                              </li>
+                              <li>
+                                  <a href="#">MST® Bushings</a>
+                              </li>
+                              <li>
+                                  <a href="#">QD Idler Bushings</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Synchronous Sprockets</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Timing Belt Pulleys</a>
+                              </li>
+                              <li>
+                                  <a href="#">High HP HTS® Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">HTS® Sprockets</a>
+                              </li>
+                              <li>
+                                  <a href="#">MPC® Sprockets</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">Couplings</a>
+                          <ul>
+                              <li>
+                                  <a href="#">Blue-Flex® Grid Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Go-Flex® Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Jaw Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Quadra-Flex® Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Roller Chain Couplings</a>
+                              </li>
+                              <li>
+                                  <a href="#">Martin-Flex® Couplings</a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Material Handling</a>
+                </li>
+                <li>
+                  <a href="#">Conveyor Pulleys</a>
+                </li>
+                <li>
+                  <a href="#">Idlers</a>
+                </li>
+                <li>
+                  <a href="#">Hand Tools</a>
+                </li>
+                <li>
+                  <a href="/custom-products.php">Custom Products</a>
+                </li>
+              </ul>
+              <ul class="md:inline-list md:hidden block line-seperator uppercase my-8">
+                <li>
+                  <a href="#">My Account</a>
+                </li>
+                <li>
+                  <a href="/careers.php">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Request a quote</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="submenu" class="header-submenu">
+      <section class="clearfix py-3 max-w-screen-2xl mx-auto w-11/12"></section>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Page Hero -->
+  <div class="page-hero" style="background-image:url('/assets/imgs/heroes/company.jpg');">
+    <section class="py-12 md:py-20 clearfix max-w-screen-2xl mx-auto w-11/12 secondary-font">
+      <h1 class="text-white text-right md:text-5xl my-0">Company</h1>
+    </section>
+  </div>
+  <!-- End Page Hero -->
+
+  <!-- Main
+  This is will be the main content area. Header and Footer should be the same on all pages. -->
+  <main id="main" class="pt-8 pb-24">
+    <section class="clearfix max-w-screen-2xl mx-auto w-11/12 md:flex justify-end secondary-font mb-16">
+      <ul class="inline-list carrot-seperator uppercase">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/company.php">Company</a>
+        </li>
+        <li>
+          <a href="/locations.php">Locations</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="clearfix max-w-screen-lg mx-auto w-11/12 md:w-9/12 secondary-font mb-14" data-aos="fade-in">
+      <div class="md:mx-8">
+        <h2 class="text-primary text-center mb-20">Locations</h2>
+        <p>Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit.</p>
+      </div>
+    </section>
+
+    <section class="clearfix max-w-screen-xl mx-auto secondary-font mb-20" data-aos="fade-in">
+      <div class="flex justify-start flex-wrap">
+        <div class="w-1/3 md:w-1/6 text-center">
+          <a href="#" onclick="b3_bigCat(event, 'usa')" class="p-5 lg:p-10 inline-block">
+            <img src="/assets/imgs/flags/usa.svg" class="w-full" alt="United States">
+            <p>United States</p>
+          </a>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <a href="#" onclick="b3_bigCat(event, 'canada')" class="p-5 lg:p-10 inline-block">
+            <img src="/assets/imgs/flags/canada.svg" class="w-full" alt="United States">
+            <p>Canada</p>
+          </a>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <a href="#" onclick="b3_bigCat(event, 'mexico')" class="p-5 lg:p-10 inline-block">
+            <img src="/assets/imgs/flags/mexico.svg" class="w-full" alt="United States">
+            <p>Mexico</p>
+          </a>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <a href="#" onclick="b3_bigCat(event, 'brazil')" class="p-5 lg:p-10 inline-block">
+            <img src="/assets/imgs/flags/brazil.svg" class="w-full" alt="United States">
+            <p>Brazil</p>
+          </a>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <a href="#" onclick="b3_bigCat(event, 'china')" class="p-5 lg:p-10 inline-block">
+            <img src="/assets/imgs/flags/china.svg" class="w-full" alt="United States">
+            <p>China</p>
+          </a>
+        </div>
+        <div class="w-1/3 md:w-1/6 text-center">
+          <a href="#" onclick="b3_bigCat(event, 'uk')" class="p-5 lg:p-10 inline-block">
+            <img src="/assets/imgs/flags/uk.svg" class="w-full" alt="United States">
+            <p>United Kingdom</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="clearfix" data-aos="fade-in">
+      <div class="mapbox category-map" id="full-map" data-whitewater="1">
+        <!-- Categories -->
+        <div class="marker category" data-category="usa" data-lat="39.8283" data-lng="-98.5795" data-icon="/assets/imgs/flags/usa-pin.png"></div>
+        <div class="marker category" data-category="canada" data-lat="56.1304" data-lng="-106.3468" data-icon="/assets/imgs/flags/canada-pin.png"></div>
+        <div class="marker category" data-category="mexico" data-lat="23.6345" data-lng="-100.5528" data-icon="/assets/imgs/flags/mexico-pin.png"></div>
+        <div class="marker category" data-category="brazil" data-lat="-14.2350" data-lng="-51.9253" data-icon="/assets/imgs/flags/brazil-pin.png"></div>
+        <div class="marker category" data-category="china" data-lat="35.8617" data-lng="104.1954" data-icon="/assets/imgs/flags/china-pin.png"></div>
+        <div class="marker category" data-category="uk" data-lat="55.3781" data-lng="-3.4360" data-icon="/assets/imgs/flags/uk-pin.png"></div>
+        <!-- End Categories -->
+
+        <!-- Offices  -->
+        <div class="marker location usa" data-lat="32.696014" data-lng="-97.142752" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/corporate.jpg" alt="Corporate Office - Arlington, Texas">
+         <div class="inset">
+            <h4>Corporate Office - Arlington, Texas</h4>
+            <p><a href="https://maps.google.com/?q=32.696014, -97.142752" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="34.000000" data-lng="-84.000000" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/scottdale.jpg" alt="Atlanta, Georgia">
+         <div class="inset">
+            <h4>Atlanta, Georgia</h4>
+            <p><a href="https://maps.google.com/?q=34.000000, -84.000000" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="38.598443" data-lng="-121.481978" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/sacramento.jpg" alt="Sacramento, California">
+         <div class="inset">
+            <h4>Sacramento, California</h4>
+            <p><a href="https://maps.google.com/?q=38.598443, -121.481978" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="42.014506" data-lng="-87.886371" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/04--chicago.jpg" alt="Chicago, Illinois">
+         <div class="inset">
+            <h4>Chicago, Illinois</h4>
+            <p><a href="https://maps.google.com/?q=42.014506, -87.886371" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="41.584753" data-lng="-84.573207" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/07-montpeliar-new.jpg" alt="Montpelier, Ohio">
+         <div class="inset">
+            <h4>Montpelier, Ohio</h4>
+            <p><a href="https://maps.google.com/?q=41.584753, -84.573207" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="33.977881" data-lng="-118.135790" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/08-los-angelos.jpg" alt="Los Angeles, California">
+         <div class="inset">
+            <h4>Los Angeles, California</h4>
+            <p><a href="https://maps.google.com/?q=33.977881, -118.135790" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="45.540810" data-lng="-122.713340" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/09-portland.jpg" alt="Portland, Oregon">
+         <div class="inset">
+            <h4>Portland, Oregon</h4>
+            <p><a href="https://maps.google.com/?q=45.540810, -122.713340" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="40.792247" data-lng="-75.487463" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/danielsville.jpg" alt="Danielsville, Pennsylvania">
+         <div class="inset">
+            <h4>Danielsville, Pennsylvania</h4>
+            <p><a href="https://maps.google.com/?q=40.792247, -75.487463" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="44.810953" data-lng="-93.367760" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/14-minnesota.jpg" alt="Minneapolis, Minnesota">
+         <div class="inset">
+            <h4>Minneapolis, Minnesota</h4>
+            <p><a href="https://maps.google.com/?q=44.810953, -93.367760" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="29.876009" data-lng="-95.546612" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/15-houston.jpg" alt="Houston, Texas">
+         <div class="inset">
+            <h4>Houston, Texas</h4>
+            <p><a href="https://maps.google.com/?q=29.876009, -95.546612" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="27.972679" data-lng="-82.348419" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/tampa.jpg" alt="Tampa, Florida">
+         <div class="inset">
+            <h4>Tampa, Florida</h4>
+            <p><a href="https://maps.google.com/?q=27.972679, -82.348419" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="39.793963" data-lng="-104.862756" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/denver3.jpg" alt="Denver, Colorado">
+         <div class="inset">
+            <h4>Denver, Colorado</h4>
+            <p><a href="https://maps.google.com/?q=39.793963, -104.862756" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="39.134545" data-lng="-94.509265" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/19-kansas-city-new.jpg" alt="Kansas City, Missouri">
+         <div class="inset">
+            <h4>Kansas City, Missouri</h4>
+            <p><a href="https://maps.google.com/?q=39.134545, -94.509265" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="33.000000" data-lng="-97.000000" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/fort-worth.jpg" alt="Fort Worth, Texas">
+         <div class="inset">
+            <h4>Fort Worth, Texas</h4>
+            <p><a href="https://maps.google.com/?q=33.000000, -97.000000" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="35.240997" data-lng="-80.932063" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/24-charlotte-2.jpg" alt="Charlotte, North Carolina">
+         <div class="inset">
+            <h4>Charlotte, North Carolina</h4>
+            <p><a href="https://maps.google.com/?q=35.240997, -80.932063" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="35.399029" data-lng="-80.205138" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/corporate.jpg" alt="Albemarle, North Carolina">
+         <div class="inset">
+            <h4>Albemarle, North Carolina</h4>
+            <p><a href="https://maps.google.com/?q=35.399029, -80.205138" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="36.148086" data-lng="-86.711553" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/32-nashville.jpg" alt="Nashville, Tennessee">
+         <div class="inset">
+            <h4>Nashville, Tennessee</h4>
+            <p><a href="https://maps.google.com/?q=36.148086, -86.711553" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="36.044072" data-lng="-90.484010" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/paragould2.jpg" alt="Paragould, Arkansas">
+         <div class="inset">
+            <h4>Paragould, Arkansas</h4>
+            <p><a href="https://maps.google.com/?q=36.044072, -90.484010" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="32.431590" data-lng="-99.657741" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/abilene.jpg" alt="Abilene, Texas">
+         <div class="inset">
+            <h4>Abilene, Texas</h4>
+            <p><a href="https://maps.google.com/?q=32.431590, -99.657741" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="33.615030" data-lng="-95.065341" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/clarksville.jpg" alt="Clarksville, Texas">
+         <div class="inset">
+            <h4>Clarksville, Texas</h4>
+            <p><a href="https://maps.google.com/?q=33.615030, -95.065341" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="32.551900" data-lng="-97.144946" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/mansfield.jpg" alt="Mansfield, Texas">
+         <div class="inset">
+            <h4>Mansfield, Texas</h4>
+            <p><a href="https://maps.google.com/?q=32.551900, -97.144946" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location usa" data-lat="32.776586" data-lng="-96.771559" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-usa/foundry2.jpg" alt="Dallas Foundry, Texas">
+         <div class="inset">
+            <h4>Dallas Foundry, Texas</h4>
+            <p><a href="https://maps.google.com/?q=32.776586, -96.771559" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location canada" data-lat="43.648350" data-lng="-79.666859" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-canada/mississauga.jpg" alt="Mississauga, Ontario">
+         <div class="inset">
+            <h4>Mississauga, Ontario</h4>
+            <p>896 Meyerside Drive<br>Mississauga, ON L5T 1R9<br>Fax 905-670-2110</p>
+            <p><a href="https://maps.google.com/?q=" 43.648350,="" -79.666859'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location canada" data-lat="43.327597" data-lng="-80.435833" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-canada/cambridge.jpg" alt="Cambridge, Ontario">
+         <div class="inset">
+            <h4>Cambridge, Ontario</h4>
+            <p>320 Darrell Drive RR1<br>Ayr, ON N0B 1E0<br>Fax 519-621-4413</p>
+            <p><a href="https://maps.google.com/?q=" 43.327597,="" -80.435833'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location canada" data-lat="53.489808" data-lng="-113.403489" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-canada/edmonton.jpg" alt="Edmonton, Alberta">
+         <div class="inset">
+            <h4>Edmonton, Alberta</h4>
+            <p>4027-53 Avenue NW<br>Edmonton, AB T6B 3R5<br>Fax 780-465-0079</p>
+            <p><a href="https://maps.google.com/?q=" 53.489808,="" -113.403489'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location mexico" data-lat="19.372438" data-lng="-99.572313" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-mexico/toluca.jpg" alt="Toluca, Mexico">
+         <div class="inset">
+            <h4>Toluca, Mexico</h4>
+            <p>Km. 52 Carretera Naucalpan-Toluca<br>Toluca,  50233<br>Fax 011-52-722-276-0801</p>
+            <p><a href="https://maps.google.com/?q=" 19.372438,="" -99.572313'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location mexico" data-lat="25.759050" data-lng="-100.144676" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-mexico/monterrey.jpg" alt="Monterrey, Mexico">
+         <div class="inset">
+            <h4>Monterrey, Mexico</h4>
+            <p>Av. Industrial #100<br>Apodaca, NL 66600<br>Fax 011-52-81-1156-6833</p>
+            <p><a href="https://maps.google.com/?q=" 25.759050,="" -100.144676'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location mexico" data-lat="20.599827" data-lng="-103.405332" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-mexico/guadalajara.jpg" alt="Guadalajara, Mexico">
+         <div class="inset">
+            <h4>Guadalajara, Mexico</h4>
+            <p>Calle Colon Sur No. 6013<br>Tlaquepaque, JAL 45601<br>Fax 011-52-33-3271-8450</p>
+            <p><a href="https://maps.google.com/?q=" 20.599827,="" -103.405332'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location brazil" data-lat="-22.552920" data-lng="-47.173737" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-south-america/brazil.png" alt="Artur Nogueira, Brazil">
+         <div class="inset">
+            <h4>Artur Nogueira, Brazil</h4>
+            <p>Rodovia SP 332, Km 154,5<br>Artur Nogueira, SP 1316-0000<br>Fax 3877-9429</p>
+            <p><a href="https://maps.google.com/?q=" -22.552920,="" -47.173737'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location china" data-lat="31.463262" data-lng="121.230617" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-international/shanghai-1.jpg" alt="Shanghai, China">
+         <div class="inset">
+            <h4>Shanghai, China</h4>
+            <p>No. 81 Tang Yao Road, Hua Ting Town, Jiading<br>Shanghai, PRC 201816<br>Fax 6708-4889</p>
+            <p><a href="https://maps.google.com/?q=" 31.463262,="" 121.230617'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location china" data-lat="31.646093" data-lng="119.928067" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-international/changzhou-1.jpg" alt="Changzhou, China">
+         <div class="inset">
+            <h4>Changzhou, China</h4>
+            <p>No. 1 Xinyong Road <br>Wujin high-tech zone, PRC 213164<br>Fax 0519-86226730</p>
+            <p><a href="https://maps.google.com/?q=" 31.646093,="" 119.928067'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location china" data-lat="25.912208" data-lng="119.486122" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-international/fuzhou.jpg" alt="Fuzhou, China">
+         <div class="inset">
+            <h4>Fuzhou, China</h4>
+            <p>Zhuhu Village, Shouzhan Town, Changle<br>Fujian Province, PRC <br>Fax 86-0591-28983781</p>
+            <p><a href="https://maps.google.com/?q=" 25.912208,="" 119.486122'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+      <div class="marker location uk" data-lat="52.271340" data-lng="-1.541550" data-color="#F9B23E">
+         <img src="http://en-staging.martinsprocket.com/images/locations-uk/UK-facility.png" alt="United Kingdom">
+         <div class="inset">
+            <h4>United Kingdom</h4>
+            <p>5 Spartan Cl<br>Royal Leamington Spa, Warwick CV34 6RR<br>Fax </p>
+            <p><a href="https://maps.google.com/?q=" 52.271340,="" -1.541550'="" target="_blank">Get Directions</a></p>
+         </div>
+      </div>
+        <!-- Offices  -->
+
+        <div id="map-detail">
+          <div class="inner"></div>
+          <div class="reset" onclick="b3_closeDetails()">Close</div>
+        </div>
+        <a href="#" onclick="b3_mapReset(event, 'full-map')" id="full-reset">Reset Map</a>
+      </div>
+    </section>
+
+  </main>
+  <!-- End Main -->
+
+  <!-- Footer -->
+<footer class="border-b-4 border-primary border-solid lines-bg">
+  <section class="py-14 clearfix max-w-screen-2xl mx-auto w-11/12 md:flex items-start secondary-font">
+    <div class="w-full text-center md:text-left md:w-2/5">
+      <a class="block clearfix" href="/">
+        <img src="/assets/imgs/martin-logo.svg" class="w-full footer-logo mx-auto block md:float-left mb-8" alt="Martin Sprocket & Gear, Inc" />
+      </a>
+      <p class="mb-20">
+        3100 Sprocket Drive<br />
+        Arlington, TX 76015<br />
+        <a style="color:#333;" class="font-extrabold" href="tel:+18172583000">817.258.3000</a>
+      </p>
+      <p>©2022 Martin Sprocket & Gear, Inc. All Rights Reserved</p>
+    </div>
+    <div class="w-full text-center md:text-right md:w-3/5 text-sm">
+      <ul class="social-icons mb-20 block">
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-twitter-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-facebook-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="inline-list hidden md:block line-seperator uppercase mb-12 block font-bold">
+        <li>
+          <a class="text-primary" href="#">My Account</a>
+        </li>
+        <li>
+          <a class="text-primary" href="#">Careers</a>
+        </li>
+        <li>
+          <a class="text-primary" href="#">Request a quote</a>
+        </li>
+      </ul>
+      <ul class="inline-list hidden md:block line-seperator uppercase mb-5 block">
+        <li>
+          <a href="/company.php">Company</a>
+        </li>
+        <li>
+          <a href="#">Resources</a>
+        </li>
+        <li>
+          <a href="#">Training</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="/contact.php">Contact</a>
+        </li>
+      </ul>
+      <ul class="inline-list hidden md:block line-seperator uppercase mb-20 block">
+        <li>
+          <a href="/power-transmission.php">Power Transmission</a>
+        </li>
+        <li>
+          <a href="#">Material Handling</a>
+        </li>
+        <li>
+          <a href="#">Conveyor Pulleys</a>
+        </li>
+        <li>
+          <a href="#">Idlers</a>
+        </li>
+        <li>
+          <a href="#">Hand Tools</a>
+        </li>
+        <li>
+          <a href="#">Custom Products</a>
+        </li>
+      </ul>
+      <ul class="inline-list line-seperator block">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#">Site Map</a>
+        </li>
+        <li>
+          <a href="#">Terms and Conditions - Limited Warranty</a>
+        </li>
+        <li>
+          <a href="#">Proposition 65 Compliance Notification</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</footer>
+<!-- End Footer -->
+
+<!-- Search form -->
+<div id="search-form-overlay" class="search-overlay hidden">
+    <i class="fa-solid fa-circle-xmark icon-cancel" title="Close search bar"></i>
+    <div class="search-overlay-content">
+        <form action="/search">
+            <input type="text" placeholder="Enter text to search" name="search">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="/assets/js/libs/jquery.min.js"></script>
+<script src="/assets/js/libs/jquery.hoverIntent.js"></script>
+<script src="/assets/css/libs/aos/aos.js"></script>
+<script src="/assets/js/libs/mediabox/mediabox.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+
+<script src="/assets/js/jquery-submenus.js?v=<?php echo time(); ?>"></script>
+<script src="/assets/js/jquery.js?v=<?php echo time(); ?>"></script>
+<script src="/assets/js/javascript.js?v=<?php echo time(); ?>"></script>
+
+</body>
+</html>
